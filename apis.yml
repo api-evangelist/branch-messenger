@@ -1,23 +1,126 @@
 aid: branch-messenger
+
 name: Branch
-description: 'Branch is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Branch provides a mobile measurement and deep linking platform that helps marketers and developers create, manage, and analyze deep
+  links, attribution, and user engagement across apps and web. The service offers tools for link management, attribution analytics, fraud detection,
+  and integration with advertising and analytics platforms, supporting a wide range of industries such as finance, retail, and media.
+
 url: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-03 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-03'
+
 modified: '2026-10-03'
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found despite public markdown docs.
+  evidence:
+  - url: https://help.branch.io/apidocs
+    status: 200
+  checked: '2026-10-03'
+
 tags:
-- Company
-apis: []
+- Mobile
+- DeepLinking
+- Attribution
+- Marketing
+- Analytics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/branch-messenger-rules.yml
+- type: JSONLD
+  url: json-ld/branch-messenger-context.jsonld
+- type: Vocabulary
+  url: vocabulary/branch-messenger-vocabulary.yml
+- type: Webhooks
+  url: asyncapi/branch-messenger-webhooks.yml
+- type: DataModel
+  url: data-model/branch-messenger-data-model.yml
+- type: Compliance
+  url: https://trust.branch.io/
+- type: Conformance
+  url: conformance/branch-messenger-conformance.yml
+- type: LLMsTxt
+  url: llms/branch-messenger-llms.txt
+- type: SecurityTxt
+  url: well-known/branch-messenger-status-security.txt
+- type: WellKnown
+  url: well-known/branch-messenger-well-known.yml
+- type: Hosts
+  url: hosts/branch-messenger-hosts.yml
+- type: Vendors
+  url: vendors/branch-messenger-vendors.yml
+- type: Support
+  url: https://help.branch.io
+- type: StatusPage
+  url: https://status.branch.io
+- type: Security
+  url: https://branch.io/security
+- type: PrivacyPolicy
+  url: https://legal.branch.io/saas/privacy-policy/
+- type: Pricing
+  url: https://branch.io/pricing
+- type: Newsroom
+  url: https://www.branch.io/resources/category/news/
+- type: Leadership
+  url: https://www.branch.io/leadership/
+- type: Blog
+  url: https://www.branch.io/resources/category/blog/
+- type: APIReference
+  url: https://help.branch.io/apidocs
+- type: GettingStarted
+  url: https://help.branch.io/apidocs/scheduled-log-exports-cloud-setup
+- type: Documentation
+  url: https://developer.branch.io/
+- type: TrustCenter
+  url: security/branch-messenger-trust-center.yml
+- type: DomainSecurity
+  url: security/branch-messenger-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/branch-messenger_stock/
+  url: https://branchapp.com/
+
+apis:
+- name: Branch API
+  description: Branch API provides deep linking, attribution, and analytics endpoints as documented in the public markdown API reference.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: null
+  aid: branch-messenger:branch-api
+- aid: branch-messenger:branch-messenger-api
+  name: Branch API
+  description: 'Branch API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
+
+    the provider''s own document.'
+  humanURL: https://help.branch.io/apidocs/app-api.md
+  baseURL: https://api2.branch.io
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/branch-messenger-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

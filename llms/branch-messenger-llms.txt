@@ -1,0 +1,917 @@
+# Branch Help Center
+
+> Knowledge base documentation for Branch Help Center.
+
+## v1-api (API Reference)
+
+- [APIs Overview](https://help.branch.io/apidocs/apis-overview.md): Learn about the different APIs that the Branch Growth Platform offers.
+- [Trying APIs](https://help.branch.io/apidocs/trying-apis.md)
+- [Quick Links (Short Links) API Overview](https://help.branch.io/apidocs/quick-links-api.md)
+- [Create a Deep Link URL](https://help.branch.io/apidocs/createquicklinkurl.md)
+- [Update Existing Deep Link](https://help.branch.io/apidocs/updateexistingquicklink.md)
+- [Create Bulk Deep Link URL](https://help.branch.io/apidocs/createbulkquicklinkurl.md)
+- [Deep Linking API Overview](https://help.branch.io/apidocs/deep-linking-api.md): Unlock the power of Branch's Deep Linking API to create, update, and manage Deep Links in bulk with ease and efficiency.
+- [Create a Deep Link URL](https://help.branch.io/apidocs/createdeeplinkurl.md)
+- [Delete Existing Deep Link](https://help.branch.io/apidocs/deleteexistingdeeplink.md)
+- [Read Existing Deep Link](https://help.branch.io/apidocs/readexistingdeeplink.md)
+- [Update Existing Deep Link](https://help.branch.io/apidocs/updateexistingdeeplink.md)
+- [Create Bulk Deep Link URL](https://help.branch.io/apidocs/createbulkdeeplinkurl.md)
+- [QR Code API Overview](https://help.branch.io/apidocs/qr-code-api.md)
+- [Create QR Code](https://help.branch.io/apidocs/createqrcode.md)
+- [Daily Exports API Overview](https://help.branch.io/apidocs/daily-exports-api.md)
+- [Request Daily Export](https://help.branch.io/apidocs/requestdailyexport.md)
+- [Custom Exports API Overview](https://help.branch.io/apidocs/custom-exports-api.md)
+- [Create Export Request](https://help.branch.io/apidocs/buildexportrequest.md)
+- [Get Export Request](https://help.branch.io/apidocs/getdownloadexportrequest.md)
+- [Check Data Readiness](https://help.branch.io/apidocs/checkdatareadiness.md)
+- [Aggregate API Overview](https://help.branch.io/apidocs/aggregate-api.md)
+- [Request Aggregate Export](https://help.branch.io/apidocs/requestaggregateexport.md)
+- [Export Download Status](https://help.branch.io/apidocs/getexportdownloadstatus.md)
+- [Cohort API Overview](https://help.branch.io/apidocs/cohort-api.md)
+- [Export Cohort Analytics](https://help.branch.io/apidocs/exportcohortanalytics.md)
+- [Get Export Download Status](https://help.branch.io/apidocs/getexportdownloadstatus-2.md)
+- [Scheduled Log Exports API Overview](https://help.branch.io/apidocs/scheduled-log-exports-api.md)
+- [Scheduled Log Exports Cloud Setup](https://help.branch.io/apidocs/scheduled-log-exports-cloud-setup.md)
+- [Create New Subscription](https://help.branch.io/apidocs/createscheduledlogexportsubscription.md)
+- [Details on Single Subscription](https://help.branch.io/apidocs/checksubscriptionstatus.md)
+- [Details on All Subscriptions](https://help.branch.io/apidocs/getdetailsonallexportsubscription.md)
+- [Deactivate Subscription](https://help.branch.io/apidocs/deactivatesubscription.md)
+- [Details on Single Export Job](https://help.branch.io/apidocs/getdetailsonindividualexportjob.md)
+- [Details on Many Export Jobs](https://help.branch.io/apidocs/details-on-many-export-jobs.md)
+- [Get External ID](https://help.branch.io/apidocs/getexternalidbranch.md)
+- [Cross-Events Export API Overview](https://help.branch.io/apidocs/cross-events-export-api.md)
+- [Unified Analytics Export](https://help.branch.io/apidocs/unified-analytics-export.md)
+- [Request Data Export](https://help.branch.io/apidocs/requestcrosseventsdataexport.md)
+- [Retrieve Download Status](https://help.branch.io/apidocs/retrieveexportdownloadstatus.md)
+- [Query API Overview](https://help.branch.io/apidocs/query-api.md): Access pre-aggregated analytics data effortlessly with the Branch Query API. Customize queries and manage agency access for enhanced data insights.
+- [Query API Recipes](https://help.branch.io/apidocs/query-api-recipes.md)
+- [Post Query](https://help.branch.io/apidocs/postquery.md)
+- [Events API Overview](https://help.branch.io/apidocs/events-api.md)
+- [Logging Standard Events](https://help.branch.io/apidocs/logstandardevents.md)
+- [Logging Custom Events](https://help.branch.io/apidocs/logcustomevents.md)
+- [Attribution API Overview](https://help.branch.io/apidocs/attribution-api.md)
+- [Desktop and Over the Top (OTT) Attribution](https://help.branch.io/apidocs/desktop-over-the-top-ott-attribution.md)
+- [Request Open](https://help.branch.io/apidocs/requestopen.md)
+- [App API Overview](https://help.branch.io/apidocs/app-api.md)
+- [Get Current Branch App Config](https://help.branch.io/apidocs/getcurrentbrancappconfig.md)
+- [Update Branch App Config](https://help.branch.io/apidocs/updatebranchappconfig.md)
+- [Data Subject Request API Overview](https://help.branch.io/apidocs/data-subject-request-api-overview.md)
+- [Access / Erasure](https://help.branch.io/apidocs/access-erasure.md)
+- [Download / Status Request](https://help.branch.io/apidocs/download-status-request.md)
+
+## Account Hub
+
+- [Get Started](https://help.branch.io/docs/get-started-account-hub.md)
+- [Account Hub Overview](https://help.branch.io/docs/account-hub-overview.md): Manage your Branch account effortlessly with step-by-step guides on settings, user access, and security in the Account Hub. Stay updated and optimize your experience.
+- [Products](https://help.branch.io/docs/products.md): Boost user engagement and ad performance with Branch's Growth Platform, featuring personalized links, deep linking, and advanced analytics for optimized campaigns.
+- [Glossary](https://help.branch.io/docs/glossary.md): Look up terms commonly used in Branch, listed alphabetically, from deep linking and attribution to links and analytics.
+- [Branch University](https://help.branch.io/docs/branch-university.md): Learn Branch with on-demand courses for marketers, product managers, and developers, from first implementation to measurable revenue.
+- [Branch University Shortcuts](https://help.branch.io/docs/branch-university-shortcuts.md): Jump straight to short Branch University lessons on creating links, using Analysis, dashboards, and report widgets.
+- [Branch MCP](https://help.branch.io/docs/branch-mcp.md): Connect your AI assistant to Branch analytics with Branch MCP, so you can ask questions and get answers from your current data.
+- [Onboarding](https://help.branch.io/docs/onboarding-account-hub.md)
+- [Onboarding Guide](https://help.branch.io/docs/onboarding-guide.md): Onboard to Branch to optimize your mobile growth and attribution solutions. Learn how to track Branch Events, create Journeys, and set up third-party analytics data integrations.
+- [Activation Onboarding Guide](https://help.branch.io/docs/activation-onboarding-guide.md): Create custom QR codes and short links effortlessly with Branch Activation, enhancing user engagement across web and app with insightful analytics.
+- [MMP Migration Guide](https://help.branch.io/docs/mmp-migration-guide.md): Migrate to Branch from Adjust, Singular, Kochava, or AppsFlyer, with an audit checklist and best practices for the transition.
+- [New Branch](https://help.branch.io/docs/new-branch.md)
+- [New Branch Overview](https://help.branch.io/docs/new-branch-overview.md): Learn what changed in the new Branch interface, which pages have moved, and how to complete common tasks.
+- [Account (New)](https://help.branch.io/docs/account-new.md)
+- [Home Page (New)](https://help.branch.io/docs/home-page-new.md): Get started with Branch using our setup checklist and progress tracker, found on the Home page.
+- [Profile (New)](https://help.branch.io/docs/profile-new.md): Manage your Branch name, role, avatar, and preferences on the Profile tab, and find your user ID and account email.
+- [Billing (New)](https://help.branch.io/docs/billing-new.md)
+- [Usage (New)](https://help.branch.io/docs/billing-usage-new.md): Depending on your plan, the Billing page will reflect either your app’s monthly active users (MAU) count, or it will show volume credit usage.
+- [Manage Billing (New)](https://help.branch.io/docs/billing-manage-new.md): Manage your Branch billing details, view payment info, track volume credits, and access invoice history from the Billing page.
+- [Manage Payments (New)](https://help.branch.io/docs/billing-payments-new.md): Manage your payment information easily, troubleshoot credit card issues, and learn about accepted payment methods for your Branch account.
+- [Manage Invoices (New)](https://help.branch.io/docs/billing-invoices-new.md): Manage your invoice history from the Billing page in Branch.
+- [Configuration (New)](https://help.branch.io/docs/configuration-new.md)
+- [App Settings (New)](https://help.branch.io/docs/app-settings-new.md)
+- [General (New)](https://help.branch.io/docs/general-new.md): Configure your Branch account's core details, including app name, ID, logo, timezone, and currency preferences in the General tab.
+- [Security and Access (New)](https://help.branch.io/docs/security-access-new.md)
+- [Credentials (New)](https://help.branch.io/docs/credentials-new.md): Manage your Branch account's authentication credentials securely with the Credentials tab. Learn about Branch Key, Secret, and Access Token for safe API integration.
+- [SSO (New)](https://help.branch.io/docs/sso-new.md): Streamline your team's access to the Branch Dashboard with Auth0 SSO. Configure easily and enhance user experience with secure single sign-on.
+- [Team (New)](https://help.branch.io/docs/team-new.md): Manage team member access and permissions in your Branch account from the Team tab. Add, edit, or remove users and maintain role-based access controls.
+- [Link Controls (New)](https://help.branch.io/docs/link-controls-new.md)
+- [Link Routing Rules (New)](https://help.branch.io/docs/link-routing-rules-new.md): Configure your link settings in Branch with customizable domains, routing rules, and advanced mobile redirects for optimal user experience.
+- [Link Appearance (New)](https://help.branch.io/docs/link-appearance-new.md): Configure link domains, link previews, and QR codes on the Link Controls page in Branch, plus routing rules per platform.
+- [Attribution (New)](https://help.branch.io/docs/attribution-new.md)
+- [Attribution (New)](https://help.branch.io/docs/attribution-page-new.md): Configure Branch's Attribution page to track user sessions and conversion events with advanced features like PAM and SEO App Attribution.
+- [Testing and Monitoring (New)](https://help.branch.io/docs/testing-monitoring-new.md)
+- [Liveview (New)](https://help.branch.io/docs/liveview-new.md): Access Liveview for advanced event monitoring and webhook debugging.
+- [Recent Activity (New)](https://help.branch.io/docs/recent-activity-new.md): The Recent Activity tab shows you changes made in your Branch account within the last 90 days.
+- [Add and Manage Test Devices (New)](https://help.branch.io/docs/add-and-manage-test-devices-new.md): Add test devices in Branch to easily test your campaign setup in the Test Devices tab.
+- [Alert Notifications (New)](https://help.branch.io/docs/alert-notifications-new.md): Set up automatic email alerts on Branch to notify you of any data and account settings changes.
+- [User Accounts and Permissions](https://help.branch.io/docs/user-accounts-and-permissions.md)
+- [Default Access Levels, Users Roles & Permissions](https://help.branch.io/docs/default-access-levels-users-roles-permissions.md): Understand Branch roles, access levels, and entity views, and see which features each role can reach.
+- [Entity Views, Roles & Access Levels Overview](https://help.branch.io/docs/entity-views-roles-access-levels-overview.md): Understand how entity views, access levels, and roles work together to control what each Branch user can see and do.
+- [Add & Manage Users](https://help.branch.io/docs/add-manage-users.md): Add and manage users on the legacy Team tab in Branch, including permissions, invitations, and removals.
+- [Manage User Profile](https://help.branch.io/docs/manage-user-profile.md): Manage your profile on the legacy User tab. In new Branch, profile details and access tokens live on separate pages.
+- [Manage Account Profile](https://help.branch.io/docs/profile-settings.md): Find your Branch key and secret, app name, app ID, and timezone on the legacy Profile tab of Account Settings.
+- [Agency Users](https://help.branch.io/docs/agency-users.md)
+- [Grant an Agency Access](https://help.branch.io/docs/grant-an-agency-access.md): Grant an agency access to your Branch account, assign their entity view, and configure the access levels that control what they can see and do.
+- [Add & Manage Agency Users](https://help.branch.io/docs/add-agency-users.md): Add users to your agency in Branch, change their permissions, resend invitations, and remove team members.
+- [Manage Agency User Profile](https://help.branch.io/docs/agency-user-profile.md): Update your name, password, and credentials on your Branch agency user profile, and find your Dashboard UID.
+- [Manage Agency Profile](https://help.branch.io/docs/agency-profile.md): Edit your agency name and find your Agency ID on the Profile tab of Account Settings in Branch.
+- [SSO](https://help.branch.io/docs/sso.md)
+- [Configure SSO (General SAML)](https://help.branch.io/docs/configure-sso.md): Streamline your team's access to the Branch Dashboard with Auth0 SSO. Configure easily and enhance user experience with secure single sign-on.
+- [Configure SSO With Okta](https://help.branch.io/docs/configure-sso-with-okta.md): Set up Single Sign-On for Branch using Okta as your identity provider, including SAML 2.0 app configuration.
+- [Configure SSO With Azure](https://help.branch.io/docs/configure-sso-with-azure.md): Set up Single Sign-On for Branch using Microsoft Entra ID, from gathering Branch details to creating a SAML 2.0 app in Azure.
+- [Configure SSO With Google](https://help.branch.io/docs/configure-sso-with-google.md): Set up Single Sign-On for Branch using Google Workspace as your identity provider, including SAML 2.0 app configuration.
+- [App Settings](https://help.branch.io/docs/app-settings.md)
+- [Attribution Windows](https://help.branch.io/docs/attribution-windows.md): Set attribution windows in Branch to control how long after a click or impression a conversion event can still be claimed.
+- [Add Additional Apps](https://help.branch.io/docs/add-additional-apps.md): Add another app to your Branch account using the legacy dashboard. For new Branch, contact Branch support.
+- [Link Settings](https://help.branch.io/docs/link-settings.md)
+- [Basic Link Configuration](https://help.branch.io/docs/basic-link-configuration.md): Configure link behavior for redirects, domains, and social media previews with advanced settings for deep linking and analytics in this comprehensive guide.
+- [Advanced Link Configuration](https://help.branch.io/docs/advanced-link-configuration.md): Manage advanced link settings in the Branch Dashboard, including URI schemes, redirect allowlist, match types, and local currency for optimized app performance.
+- [Additional Link Configuration](https://help.branch.io/docs/additional-link-configuration.md): Optimize your desktop and mobile app redirects with Branch Dashboard settings for seamless user experiences across devices.
+- [Troubleshooting Link Formatting Errors](https://help.branch.io/docs/troubleshooting-link-formatting-errors.md): Diagnose Branch Link formatting problems during testing, including malformed AAID or IDFA values and missing device IDs.
+- [Link Configuration FAQ](https://help.branch.io/docs/link-configuration-faq.md): Answers to common Branch link configuration questions, including iPad fallbacks, redirects, and platform behavior.
+- [Testing and Monitoring](https://help.branch.io/docs/testing-and-monitoring.md)
+- [Liveview](https://help.branch.io/docs/liveview.md): Debug Branch objects with legacy Liveview. In new Branch, Liveview lives under Testing and Monitoring.
+- [Recent Activity](https://help.branch.io/docs/recent-activity.md): Review recent account activity in legacy Branch. In new Branch, this lives under Testing and Monitoring.
+- [Add and Manage Test Devices](https://help.branch.io/docs/add-test-devices.md): Add a test device to your Branch account so its conversions are excluded from normal traffic, and reset its data when needed.
+- [Find your Device IDs](https://help.branch.io/docs/how-do-i-find-my-device-ids.md): Learn how to find and reset your iOS IDFA and Android AAID for better privacy control and accurate tracking in advertising.
+- [Notification & Alerting System](https://help.branch.io/docs/notification-alerting-system.md): Set up automatic email alerts in Branch to be notified of data changes, account setting changes, and postback issues.
+- [Data Privacy](https://help.branch.io/docs/data-privacy.md)
+- [Obscured Data](https://help.branch.io/docs/obscured-data.md): Understand why Branch obscures some data, covering privacy protocols, Predictive Aggregate Measurement, and aggregate reporting.
+- [Third Party Integrations and PII](https://help.branch.io/docs/third-party-integrations-and-pii.md): Understand what personally identifiable information may be collected by third-party integrations you configure in Branch.
+- [Best Practices to Minimize Data Sent to Branch](https://help.branch.io/docs/best-practices-to-minimize-data-sent-to-branch.md): Learn about user privacy, understanding PII, personal data, and best practices for sharing data with Branch.
+- [Data Retention Policy](https://help.branch.io/docs/data-retention-policy.md): Read how long Branch retains the information collected through our Services and the business needs it supports.
+- [SDK Privacy Controls](https://help.branch.io/docs/sdk-privacy-controls.md): Use the Branch SDKs to honor a user request not to be tracked, and see how that flag affects core functionality.
+- [Shared Responsibility](https://help.branch.io/docs/shared-responsibility.md): Understand which security and privacy responsibilities belong to Branch and which belong to you as a customer.
+- [Billing](https://help.branch.io/docs/billing-index.md)
+- [Billing Overview](https://help.branch.io/docs/billing-overview.md): Learn how billing works for the Branch Growth Platform.
+- [Usage](https://help.branch.io/docs/usage.md): Track the Branch metrics that affect your invoice, including monthly active users and volume credits, month over month.
+- [Manage Billing](https://help.branch.io/docs/manage-billing.md): View and edit billing details in legacy Branch. In new Branch, billing lives under the Account section.
+- [Manage Invoices](https://help.branch.io/docs/manage-invoices.md): Find your Branch invoices, whether your account uses the new or legacy billing experience, for enterprise or self-serve.
+- [Manage Payments](https://help.branch.io/docs/manage-payments.md): Add, change, or delete payment methods on the legacy Billing tab. In new Branch, payments live under the Account section.
+- [Request W9](https://help.branch.io/docs/request-w9.md): Request a copy of the Branch W9 tax form by contacting the Branch billing team at billing@branch.io.
+- [Intro Plan](https://help.branch.io/docs/branch-intro-plan.md): Compare what's included in the Branch Intro plan, covering attribution, links, deep linking, and QR codes for new teams.
+- [Free Trial](https://help.branch.io/docs/free-trial.md): Explore all three Branch Basics plans during your 30-day free trial, and see the limits, notifications, and what happens at the end.
+- [Manage Plan](https://help.branch.io/docs/manage-branch-plan.md): View your current Branch plan, set a post-trial plan, upgrade, downgrade, or cancel from Manage Your Subscription.
+- [Overages and Billing](https://help.branch.io/docs/overages-and-billing.md): See what the Branch Intro plan includes each month, how overage rates apply, and how links and QR codes share volume.
+- [Intro Plan FAQs](https://help.branch.io/docs/intro-plan-faqs.md): Answers to common questions about the Branch Intro plan, covering trials, billing, upgrades, downgrades, and features.
+- [Additional Resources](https://help.branch.io/docs/additional-resources.md)
+- [Submit a Ticket](https://help.branch.io/docs/submit-a-ticket.md): Submit a technical support, sales, or billing inquiry to Branch through the Support portal.
+- [Professional Services](https://help.branch.io/docs/professional-services.md): Branch Professional Services provide onboarding, technical audits, and ongoing consulting for your Branch implementation.
+- [Support Guide](https://help.branch.io/docs/support-guide.md): Learn how to reach Branch support, what service types are available, and how account management and premium support work.
+- [Release Notes](https://help.branch.io/docs/release-notes.md)
+- [2026](https://help.branch.io/docs/2026.md)
+- [Time-Based Activity Targeting for Journeys](https://help.branch.io/docs/time-based-activity-tracking-for-journeys.md): Target Journeys audiences by how frequently users have visited your site, using day-based frequency rules.
+- [2025](https://help.branch.io/docs/2025.md)
+- [December](https://help.branch.io/docs/december-2025.md)
+- [Custom QR Codes via API](https://help.branch.io/docs/custom-qr-codes-via-api.md): Apply branding and design settings to QR codes programmatically when creating Short Links with the Branch API.
+- [Currency Support for Analysis Dashboards](https://help.branch.io/docs/currency-support-for-analysis-dashboards.md): Set dashboard and widget-level currency in Branch Analysis Dashboards to view revenue and cost in your preferred currency.
+- [Link Folders](https://help.branch.io/docs/link-folders.md): Organize Branch Links into folders by campaign, product line, or team, and attach templates for consistent tagging.
+- [AIO App Attribution](https://help.branch.io/docs/ai-optimization-aio.md): See how Branch attributes app traffic from AI assistants like ChatGPT, Claude, and Perplexity through AIO App Attribution.
+- [Apple Ads and Ad Attribution Kit](https://help.branch.io/docs/apple-ads-and-ad-attribution-kit.md): Branch supports Ad Attribution Kit (AAK), Apple's successor to SKAdNetwork, for Apple Ads campaigns on iOS 26.2 and later.
+- [November](https://help.branch.io/docs/november-2025.md)
+- [Activation Basics Package](https://help.branch.io/docs/activation-basics-package.md): Compare what's included in Branch Activation Basics, a $199/month plan for web links, QR codes, and analytics, and see who it's for.
+- [KPI Alerts for Analysis Dashboards](https://help.branch.io/docs/kpi-alerts-for-analysis-dashboards.md): Set KPI alerts on Branch Analysis Dashboard widgets to get notified when key thresholds are met or metrics shift.
+- [October](https://help.branch.io/docs/october-2025.md)
+- [Meta AEM View-Through Attribution in Branch](https://help.branch.io/docs/meta-aem-view-through-attribution-in-branch.md): Your Branch-attributed data will now automatically include modeled view-through conversions from AEM campaigns.
+- [August](https://help.branch.io/docs/august-2025.md)
+- [Add Multiple Custom Domains](https://help.branch.io/docs/add-multiple-custom-domains.md): Configure unlimited custom domains for your Branch links with Activation, so you can manage multiple brands and rebrands.
+- [Improved Single Sign-On (SSO) Experience](https://help.branch.io/docs/improved-single-sign-on-sso-experience.md): Branch has migrated single sign-on to Auth0 for stronger security, better reliability, and a smoother login experience.
+- [July](https://help.branch.io/docs/july-2.md)
+- [Introducing Scheduled Dashboard Email Reports](https://help.branch.io/docs/introducing-scheduled-dashboard-email-reports.md): Schedule Branch analytics reports to arrive in your inbox automatically, so you do not have to log in to check them.
+- [June](https://help.branch.io/docs/june-2025.md)
+- [New Unified Links Experience](https://help.branch.io/docs/upgraded-linking-experience.md): Manage Short Links and Ad Links from one unified Links tab in Branch, with faster search and better filtering.
+- [May](https://help.branch.io/docs/may-2025.md)
+- [Introducing Branch Activation](https://help.branch.io/docs/introducing-branch-activation.md): Unify your enterprise linking with Branch Activation, covering app Short Links, web Short Links, and QR codes.
+- [Branch Partners with Google on ICM for Enhanced Mobile Measurement](https://help.branch.io/docs/branch-google-icm-for-enhanced-mobile-measurement.md): Branch supports Google's Integrated Conversion Measurement (ICM) for richer iOS and Android campaign reporting.
+- [Branch Dashboard Navigation Update](https://help.branch.io/docs/new-navigation-structure.md): The Branch Dashboard navigation has been reorganized into four main sections to help you find features faster.
+- [Direct Twitter Integration Now Available in ROI Hub](https://help.branch.io/docs/direct-twitter-integration-now-available-in-roi-hub.md): Connect your Twitter Ads account for ROI Hub cost data directly from the Ad Partners page in Branch.
+- [April](https://help.branch.io/docs/april-2025.md)
+- [Postback and Webhook IP Address Allowlist Expands](https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands.md): Branch is expanding its postback and webhook IP addresses. Update your allowlist before the new addresses go live.
+- [Apple Ads SKAN Support](https://help.branch.io/docs/apple-ads-skan-support.md): Apple Ads now supports SKAdNetwork attribution in Branch for SKAN versions 1.0, 2.0, and 3.0. See what changed and what to do next.
+- [All Cost Data Moving to ROI Hub](https://help.branch.io/docs/all-cost-data-moving-to-roi-hub.md): Branch is moving all SAN cost data to ROI Hub and discontinuing Cost on Links. See what changes and how to prepare.
+- [March](https://help.branch.io/docs/march-2025.md)
+- [View-Through Conversions from Apple Ads](https://help.branch.io/docs/view-through-conversions-from-apple-ads.md): View-through conversions from Apple Ads are now available in Branch, with ad partner-level attribution windows.
+- [Country-Level Reporting for Google Ads and TikTok](https://help.branch.io/docs/country-level-reporting.md): Report on Google Ads and TikTok campaign performance by country in Branch, with channel and secondary publisher dimensions.
+- [ROI Hub File Templates for Importing Cost Data](https://help.branch.io/docs/new-roi-hub-file-templates-for-importing-cost-data.md): Use ROI Hub file templates to map your custom cost data fields to Branch fields when importing cost data for an ad partner.
+- [January](https://help.branch.io/docs/january-2025.md)
+- [Historical Quick Link Access for Self-Serve Customers](https://help.branch.io/docs/historical-quick-link-access-for-self-serve-customers.md): Self-serve customers must add a valid credit card to regain access to Branch Short Links created before June 21, 2023.
+- [2024](https://help.branch.io/docs/2024.md)
+- [November](https://help.branch.io/docs/november.md)
+- [Welcoming ROI Hub to GA](https://help.branch.io/docs/welcoming-roi-hub-to-ga.md): ROI Hub is generally available, centralizing your cost and attributed revenue data so you do not consolidate it by hand.
+- [Introducing Consumer Protection Preference Levels](https://help.branch.io/docs/introducing-consumer-protection-preference-levels.md): Set granular user privacy preferences with Branch Consumer Protection Preferences instead of turning tracking fully on or off.
+- [Custom QR Code Download Improvements](https://help.branch.io/docs/custom-qr-code-download-improvements.md): Download custom Branch QR Codes at higher resolution and in SVG, PNG, and JPG file formats.
+- [Increased Attribution Coverage for TikTok for Business](https://help.branch.io/docs/increased-attribution-coverage-for-tiktok-for-business.md): Branch supports TikTok's Advanced SAN engine, sending both ad link and app event data for broader attribution coverage.
+- [New Tool for Link Validation](https://help.branch.io/docs/new-tool-for-link-validation.md): Test Branch Links in the Dashboard with the Link Validator to confirm they route users to the expected destination.
+- [Meta AEM Acquisition Attribution Coverage](https://help.branch.io/docs/meta-aem-acquisition-attribution-coverage.md): Branch has expanded support for Meta's Aggregated Event Measurement protocol to widen acquisition attribution coverage.
+- [October](https://help.branch.io/docs/october.md)
+- [Introducing Predictive Aggregate Measurement (PAM)](https://help.branch.io/docs/introducing-predictive-aggregate-measurement-pam.md): Predictive Aggregate Measurement (PAM) is Branch privacy-focused, aggregate-based attribution for a changing privacy landscape.
+- [Household Measurement](https://help.branch.io/docs/changelog-household-measurement.md): Track downstream conversions across household devices with Branch Household Measurement, including CTVs, consoles, and phones.
+- [July](https://help.branch.io/docs/july.md)
+- [Local Currency Support for Unified Analytics](https://help.branch.io/docs/local-currency-support-for-unified-analytics.md): View revenue, cost, ECPC, and ECPI columns in your local currency in Branch Unified Analytics reports.
+- [Introducing ROI Hub Beta](https://help.branch.io/docs/introducing-roi-hub-beta.md): ROI Hub unifies your cost and revenue data in Branch and shows the connection status of each cost data source.
+- [Enhanced LinkHub Functions](https://help.branch.io/docs/enhanced-linkhub-functions.md): LinkHub adds CSV upload for bulk Short Link creation and other improvements for organizing and managing Branch links.
+- [Improved SAN Management UI](https://help.branch.io/docs/improved-san-management-ui.md): The Branch Partner Management page has been updated for self-attributing networks, making multiple ad accounts easier to manage.
+- [App Version in Engagement Builder & Analytics](https://help.branch.io/docs/app-version-filters-in-engagement-builder.md): Filter analytics and Engagement Builder audiences by App Version in Branch, alongside platform, country, and rule targeting.
+- [Early Access for Journeys: Desktop Banners](https://help.branch.io/docs/early-access-for-journeys-desktop-banners.md): Create desktop web-to-app banners with Branch Journeys, now available in Early Access.
+- [Improved Facebook/Meta AEM Campaign Reporting](https://help.branch.io/docs/improved-facebookmeta-aem-campaign-reporting.md): Meta's Aggregate Event Measurement attributed conversions are now available in the Branch Dashboard and data exports.
+- [New QR Codes in Branch](https://help.branch.io/docs/new-qr-codes-in-branch.md): Create, customize, organize, and download Branch-powered QR Codes in the Dashboard, and view their campaign performance.
+- [New Google Tag Manager Documentation for Web, iOS, and Android SDKs](https://help.branch.io/docs/new-google-tag-manager-documentation-available-for-web-ios-and-android-sdks.md): New Branch guides show how to trigger Branch SDK functions from Google Tag Manager on web, iOS, and Android.
+- [June](https://help.branch.io/docs/june.md)
+- [New Cost Data via API Partners](https://help.branch.io/docs/new-cost-data-via-api-partners.md): Branch added Cost Data via API support for Unity Ads and Criteo so you can analyze their ad performance alongside other partners.
+- [New Enterprise Account Invoices](https://help.branch.io/docs/new-enterprise-account-invoices.md): Enterprise customers can view their latest invoices from the Billing tab of Account Settings in the Branch Dashboard.
+- [May](https://help.branch.io/docs/may.md)
+- [Enhanced Web SDK Documentation](https://help.branch.io/docs/enhanced-web-sdk-documentation.md): Branch rewrote the Web SDK Basic Integration, Advanced Features, and Full Reference guides for accuracy and clarity.
+- [Improved Deep Linking without Attribution](https://help.branch.io/docs/improved-deep-linking-without-attribution.md): Use the deep link data key on Branch Ad Links to deep link users on SANs without affecting last-touch attribution.
+- [Introducing Advanced Compliance](https://help.branch.io/docs/introducing-advanced-compliance.md): Advanced Compliance is a premium Branch offering with added privacy and data security controls for regulated industries.
+- [Fixed Tag Filtering](https://help.branch.io/docs/fixed-tag-filtering.md): Branch fixed tag filtering in Dashboard reports so multiple tags no longer duplicate rows or inflate totals.
+- [Unified Analytics Exports & Dashboard Improvements](https://help.branch.io/docs/improved-unified-analytics-exports-1.md): Export Branch Unified Analytics data for internal reporting, alongside processing improvements that reduce discrepancies.
+- [April](https://help.branch.io/docs/april.md)
+- [Fixed Apple Search Ads Cost Display](https://help.branch.io/docs/fixed-apple-search-ads-cost-display.md): Branch updated how Apple Ads cost is displayed so default product page rows now report cost correctly.
+- [New Meta/Facebook Content Provider Install Referrer Support](https://help.branch.io/docs/new-metafacebook-content-provider-install-referrer-support.md): Branch supports Meta install referrer for Android campaigns, improving app install reporting for Meta ads.
+- [Additional IP Addresses for Webhooks](https://help.branch.io/docs/additional-ip-addresses-for-webhooks.md): Add the five new Branch webhook IP addresses to your server allowlist so event delivery continues uninterrupted.
+- [Cost Data Integration for Non-SANs Beta](https://help.branch.io/docs/cost-data-for-non-sans-beta.md): Pull cost data directly from non-SAN ad partners into Branch dashboards through new API integrations, now in beta.
+- [Cross-Events Export API](https://help.branch.io/docs/introducing-cross-events-exports-api.md): Query and compare aggregate data across multiple sources with the Branch Cross-Events Export API, with no row limit.
+- [Scheduled Log Exports: GCP Storage Expansion](https://help.branch.io/docs/scheduled-log-exports-gcp-storage-expansion.md): Send Branch Scheduled Log Exports data to Google Cloud Storage, alongside the existing cloud provider options.
+- [Enhanced Ad Engagement Type Metrics](https://help.branch.io/docs/enhanced-ad-engagement-type-metrics.md): Branch added engagement conversion metrics for more ad partners. See supported engagement types in dashboards and exports.
+- [Improved Self-Service Invoice Processing](https://help.branch.io/docs/improved-self-service-invoicing-processing.md): Branch has improved backend invoice generation for more timely monthly billing reports for self-service customers.
+- [Help Center Redesign](https://help.branch.io/docs/help-center-redesign.md): The Branch Help Center has been redesigned with better search, mobile support, and a clearer developer docs landing page.
+- [March](https://help.branch.io/docs/march.md)
+- [Google Ads SKAdNetwork 4 Support](https://help.branch.io/docs/support-for-google-ads-skadnetwork-4.md): Google Ads app install campaigns now support SKAdNetwork 4 in Branch, giving you deeper measurement of iOS performance.
+- [Organic Categorization for Page View Fixed](https://help.branch.io/docs/organic-categorization-for-page-view-fixed.md): Branch fixed organic categorization for the Page View event, so counts now respect the organic checkbox and attribution.
+- [New LinkHub Bulk Actions](https://help.branch.io/docs/new-linkhub-bulk-actions.md): LinkHub adds bulk actions so you can manage Branch links at scale alongside collections and enhanced reporting.
+- [Universal Email Lightweight Filters](https://help.branch.io/docs/universal-email-lightweight-filters.md): Branch Email analytics adopts the unified filtering used by Ads, SEO App Attribution, and OTT reports.
+- [February](https://help.branch.io/docs/february.md)
+- [Investigating Branch Deepviews Optimization](https://help.branch.io/docs/investigating-branch-deepviews-optimizations.md): Branch tested changes to Deepviews to improve click-to-install rates. Read the test results and what comes next.
+- [Google DMA Compliance](https://help.branch.io/docs/google-dma-compliance.md): Pass end-user consent to Google from the Branch SDKs, Attribution API, and Events API to meet Google DMA requirements.
+- [Update to Short Link Expiration Window](https://help.branch.io/docs/updated-short-link-expiration-window.md): Branch Short Links created after March 11, 2024 expire 380 days after creation. See how the expiration window resets.
+- [Update in Cohort Analytics](https://help.branch.io/docs/update-in-cohort-analytics.md): Branch Cohort Analytics has faster performance, updated data sources and calculations, and a refreshed interface.
+- [January](https://help.branch.io/docs/january-2024.md)
+- [Update to Reporting on Cost/Spend Data](https://help.branch.io/docs/update-to-reporting-on-costspend-data.md): Branch Ads Analytics makes cost and spend reporting clearer, with new data selection defaults and UI components.
+- [Enhanced iOS & Android SDK Documentation](https://help.branch.io/docs/enhanced-ios-android-sdk-documentation.md): Branch rewrote the iOS and Android SDK documentation, simplifying the Basic Integration guides for faster setup.
+- [Commitment to Accessibility](https://help.branch.io/docs/commitment-to-accessibility.md): Read Branch's accessibility commitment and how Journeys conforms to the Web Content Accessibility Guidelines.
+- [Summary Page Improvements](https://help.branch.io/docs/improved-summary-page.md): The Branch Summary page adds domain-specific defaults and auto-save so your analytics view persists between visits.
+- [Email Enhancements](https://help.branch.io/docs/email-enhancements.md): Branch has updated its account management and security email templates for a more consistent, on-brand experience.
+- [Snap Log-Level Reporting](https://help.branch.io/docs/log-level-reporting-snap.md): Snap's log-level restrictions affect user-level raw data exports. See which parameters are de-identified for Branch customers.
+- [2023](https://help.branch.io/docs/2023.md)
+- [December](https://help.branch.io/docs/december-2023.md)
+- [Journeys HTML Editor & Content Overhaul](https://help.branch.io/docs/journeys-html-editor-creatives-optimization-content-overhaul.md): Customize Journeys creatives with the Branch HTML Editor, released alongside a full overhaul of the Journeys documentation.
+- [October](https://help.branch.io/docs/october-2023.md)
+- [Meta/Facebook MAI Support](https://help.branch.io/docs/facebook-mai-support.md): Branch supports Meta's AEM solution for Mobile App Install alongside Mobile App Engagement for iOS 14.5+ campaigns.
+- [Organic Search URL Reporting on Dashboard](https://help.branch.io/docs/organic-search-url-reporting-on-dashboard.md): View the organic search URL that led to app conversions in your Branch SEO App Attribution reports.
+- [Audio Media Support on Links](https://help.branch.io/docs/audio-media-support-on-links.md): Branch Links now scrape open graph audio content, so shared music and audio can play directly from the link preview.
+- [Introducing SKAN Magic Set Up](https://help.branch.io/docs/introducing-skan-magic-set-up.md): SKAN Magic Set Up configures SKAdNetwork with a Branch-recommended conversion setup instead of a manual configuration.
+- [Introduction of Custom Partner Limits](https://help.branch.io/docs/introduction-of-custom-partner-limits.md): Branch accounts are capped at 25 enabled Custom Partners. Disable or delete one before enabling another.
+- [September](https://help.branch.io/docs/september.md)
+- [EU Hosted Data](https://help.branch.io/docs/eu-hosted-data-for-new-enterprise-customers.md): Process and store your Branch data at our AWS data center in Ireland, and see which data stays in the EU.
+- [iOS 17 Privacy Changes](https://help.branch.io/docs/ios-17-privacy-changes.md): See how Branch responded to iOS 17 privacy rules, including privacy manifest files, SDK signing, and backend updates.
+- [Enhanced Dashboard UI](https://help.branch.io/docs/enhanced-dashboard-ui.md): The Branch Dashboard has updated typography and refreshed components for creating links and reviewing marketing performance.
+- [August](https://help.branch.io/docs/august.md)
+- [Self-Serve Update](https://help.branch.io/docs/self-serve-gating.md): Branch now requires a credit card for self-serve accounts to create links and reach certain Dashboard pages and configurations.
+- [Partner Capabilities Update](https://help.branch.io/docs/partner-capabilities-update.md): Branch updated its Movable Ink, MoEngage, Pinterest, and Oracle Responsys partner integrations. See what changed for each.
+
+## Marketer Hub
+
+- [Get Started](https://help.branch.io/marketer-hub/docs/get-started-marketer-hub.md)
+- [Marketer Hub Overview](https://help.branch.io/marketer-hub/docs/marketer-hub-overview.md): Start here for Branch marketing documentation, covering engagement, campaign optimization, and measurement.
+- [Products](https://help.branch.io/marketer-hub/docs/products.md): Boost user engagement and ad performance with Branch's Growth Platform, featuring personalized links, deep linking, and advanced analytics for optimized campaigns.
+- [Glossary](https://help.branch.io/marketer-hub/docs/glossary.md): Look up terms commonly used in Branch, listed alphabetically, from deep linking and attribution to links and analytics.
+- [Branch University](https://help.branch.io/marketer-hub/docs/branch-university.md): Learn Branch with on-demand courses for marketers, product managers, and developers, from first implementation to measurable revenue.
+- [Branch University Shortcuts](https://help.branch.io/marketer-hub/docs/branch-university-shortcuts.md): Jump straight to short Branch University lessons on creating links, using Analysis, dashboards, and report widgets.
+- [Branch MCP](https://help.branch.io/marketer-hub/docs/branch-mcp.md): Connect your AI assistant to Branch analytics with Branch MCP, so you can ask questions and get answers from your current data.
+- [Onboarding](https://help.branch.io/marketer-hub/docs/onboarding-marketer-hub.md)
+- [Onboarding Guide](https://help.branch.io/marketer-hub/docs/onboarding-guide.md): Onboard to Branch to optimize your mobile growth and attribution solutions. Learn how to track Branch Events, create Journeys, and set up third-party analytics data integrations.
+- [Activation Onboarding Guide](https://help.branch.io/marketer-hub/docs/activation-onboarding-guide.md): Create custom QR codes and short links effortlessly with Branch Activation, enhancing user engagement across web and app with insightful analytics.
+- [MMP Migration Guide](https://help.branch.io/marketer-hub/docs/mmp-migration-guide.md): Migrate to Branch from Adjust, Singular, Kochava, or AppsFlyer, with an audit checklist and best practices for the transition.
+- [New Branch](https://help.branch.io/marketer-hub/docs/new-branch.md)
+- [New Branch Overview](https://help.branch.io/marketer-hub/docs/new-branch-overview.md): Learn what changed in the new Branch interface, which pages have moved, and how to complete common tasks.
+- [Home Page (New)](https://help.branch.io/marketer-hub/docs/home-page-new.md): Get started with Branch using our setup checklist and progress tracker, found on the Home page.
+- [Benchmarks (New)](https://help.branch.io/marketer-hub/docs/benchmarks.md): Compare your paid and organic marketing performance against anonymized industry data with Branch Benchmarks.
+- [Analysis (New)](https://help.branch.io/marketer-hub/docs/analysis-new.md)
+- [Dashboards Overview (New)](https://help.branch.io/marketer-hub/docs/analysis-dashboards-overview-new.md): Unlock powerful insights with Branch Analysis. Optimize your marketing campaigns using AI-driven dashboards and performance metrics for effective ad spend.
+- [Transition from Classic Analytics (New)](https://help.branch.io/marketer-hub/docs/transition-from-classic-analytics-new.md): Move from Classic Analytics to the new Branch analytics experience of dashboards, widgets, and data sources.
+- [Analysis Data Sources Reference (New)](https://help.branch.io/marketer-hub/docs/analysis-data-sources-new.md): Optimize your data performance with Branch Analysis. Learn about key data sources for effective dashboards and widgets in our comprehensive guide.
+- [Analysis FAQs (New)](https://help.branch.io/marketer-hub/docs/analysis-faqs-new.md): Answers to common questions about Branch Analysis, including the difference between Branch-created and your own dashboards.
+- [Custom Dimensions (New)](https://help.branch.io/marketer-hub/docs/custom-dimensions-new.md)
+- [Individual Dashboards (New)](https://help.branch.io/marketer-hub/docs/analysis-dashboards-new.md)
+- [Link Analytics (New)](https://help.branch.io/marketer-hub/docs/link-analytics-new.md): Use the Link Analytics data source in Branch for link-level reporting on how your links are performing.
+- [Funnel (New)](https://help.branch.io/marketer-hub/docs/funnel-new.md): Funnel enhances multi-touch attribution by visualizing user journeys, revealing the impact of assisted touches on conversions across campaigns.
+- [Cohorts (New)](https://help.branch.io/marketer-hub/docs/cohorts-new.md): Analyze user behavior with the Cohorts Dashboard to track retention, lifetime value, and campaign ROI for informed investment decisions.
+- [Links (New)](https://help.branch.io/marketer-hub/docs/new-branch-links.md)
+- [Links Page (New)](https://help.branch.io/marketer-hub/docs/links-page-new.md): Manage and deploy Branch links at scale with using the Link page. Create templates, use bulk tools, and view analytics for enhanced governance and reporting.
+- [Create Links (New)](https://help.branch.io/marketer-hub/docs/create-links.md)
+- [Create Links With Ivy (New)](https://help.branch.io/marketer-hub/docs/create-links-with-ivy-new.md): Create Branch Short Links with Ivy, the Branch AI assistant, and check each link before you publish it.
+- [Create App Links (New)](https://help.branch.io/marketer-hub/docs/create-app-links-new.md): Learn how to create app links with Branch Links, enabling deep linking to specific app pages or web destinations for enhanced user experience.
+- [Create Web Links (New)](https://help.branch.io/marketer-hub/docs/create-web-links-new.md): Learn how to create Branch Web Links, including custom domains, analytics tags, and link management for optimal user engagement.
+- [Ad Partners (New)](https://help.branch.io/marketer-hub/docs/ad-partners-new.md)
+- [Ad Partner Integration Guide (New)](https://help.branch.io/marketer-hub/docs/ad-partner-integration-guide-new.md): Connect your ad networks to Branch for seamless tracking, cost data import, and deep linking across campaigns. Optimize performance from one workspace.
+- [SANs (New)](https://help.branch.io/marketer-hub/docs/sans-new.md)
+- [Enable Amazon SAN (New)](https://help.branch.io/marketer-hub/docs/enable-amazon-san-new.md): Integrate Amazon SAN with Branch to track app installs and events, ensuring real-time data flow and accurate attribution for your Amazon DSP campaigns.
+- [Enable Apple Ads (New)](https://help.branch.io/marketer-hub/docs/enable-apple-ads-new.md): Integrate Apple Ads with Branch for effective iOS app discovery, attribution, and cost data management to boost your app's performance.
+- [Enable Google Ads (New)](https://help.branch.io/marketer-hub/docs/enable-google-ads-new.md): Integrate Google Ads with Branch to track installs, manage campaigns, and optimize performance across platforms like Search, YouTube, and more.
+- [Enable Google Marketing Platform (New)](https://help.branch.io/marketer-hub/docs/enable-google-marketing-platform-new.md): Integrate Google Marketing Platform with Branch to track installs and events seamlessly, ensuring accurate attribution for your advertising campaigns.
+- [Meta Ads (New)](https://help.branch.io/marketer-hub/docs/meta-ads-new.md)
+- [Enable Meta Ads (New)](https://help.branch.io/marketer-hub/docs/enable-meta-ads-new.md): Run effective Meta Ads campaigns across Facebook, Instagram, and Messenger with Branch's integration for accurate attribution and cost tracking.
+- [Meta Ads Web Conversions API (New)](https://help.branch.io/marketer-hub/docs/meta-ads-web-conversions-api-new.md): Forward web conversion events to Meta's Conversions API server-side through Branch for Meta ad campaigns.
+- [Enable Roku SAN (New)](https://help.branch.io/marketer-hub/docs/enable-roku-san-new.md): Integrate Roku Ads Manager with Branch for optimized ad campaigns, tracking installs, and in-app events seamlessly.
+- [Enable Snap (New)](https://help.branch.io/marketer-hub/docs/enable-snap-new.md): Integrate Snap with Branch for effective campaign tracking, advanced conversions, and privacy-preserving measurement on iOS.
+- [Enable TikTok For Business SAN (New)](https://help.branch.io/marketer-hub/docs/enable-tiktok-for-business-san-new.md): Integrate TikTok For Business with Branch to track installs, events, and optimize campaigns across platforms for effective social advertising.
+- [Enable X Ads (New)](https://help.branch.io/marketer-hub/docs/enable-x-ads-new.md): Integrate X Ads with Branch for seamless attribution of installs and in-app events, ensuring accurate data flow and enhanced campaign analysis.
+- [Enable Yahoo Ads SAN (New)](https://help.branch.io/marketer-hub/docs/enable-yahoo-ads-san-new.md): Integrate Yahoo Ads SAN with Branch for seamless attribution and campaign management.
+- [Non-SANs (New)](https://help.branch.io/marketer-hub/docs/non-sans-new.md)
+- [Non-SAN Guides (New)](https://help.branch.io/marketer-hub/docs/non-san-guides-new.md)
+- [Enable RTB House (New)](https://help.branch.io/marketer-hub/docs/enable-rtb-house-new.md): Integrate RTB House with Branch for effective retargeting and performance campaigns to enhance user engagement and conversions.
+- [Enable InMobi (New)](https://help.branch.io/marketer-hub/docs/enable-inmobi-new.md): Integrate InMobi with Branch for effective in-app advertising, enabling click attribution, postbacks, and campaign management to engage mobile consumers.
+- [Enable Aura from Unity (New)](https://help.branch.io/marketer-hub/docs/enable-aura-from-unity-new.md): Integrate Aura from Unity with Branch to enhance app attribution, track conversions, and optimize mobile advertising effortlessly.
+- [Enable Appmontize Media (New)](https://help.branch.io/marketer-hub/docs/enable-appmontize-media-new.md): Integrate Appmontize Media with Branch for seamless ad attribution, deep linking, and enhanced campaign performance across mobile and desktop platforms.
+- [Enable 3.14 Digital (New)](https://help.branch.io/marketer-hub/docs/enable-3-14-digital-new.md): Integrate 3.14 Digital with Branch for seamless ad attribution and performance marketing on desktop and mobile.
+- [Enable AdColony (New)](https://help.branch.io/marketer-hub/docs/enable-adcolony-new.md): Integrate AdColony with Branch for seamless in-app video advertising, enabling effective attribution and campaign management for brands and marketers.
+- [Enable AppLovin (New)](https://help.branch.io/marketer-hub/docs/enable-applovin-new.md): Integrate AppLovin with Branch for seamless mobile marketing, user acquisition, and retargeting on iOS and Android.
+- [Enable AdAction (New)](https://help.branch.io/marketer-hub/docs/enable-adaction-new.md): Connect AdAction to Branch to attribute clicks and installs, forward events, and deep link users into your app.
+- [Enable AdColony Performance Media (New)](https://help.branch.io/marketer-hub/docs/enable-adcolony-performance-media-new.md): Connect AdColony Performance Media to Branch to attribute clicks and installs on mobile video campaigns.
+- [Enable Adikteev (New)](https://help.branch.io/marketer-hub/docs/enable-adikteev-new.md): Connect Adikteev to Branch to attribute clicks and installs on app-retargeting and re-engagement campaigns.
+- [Enable Admobs (New)](https://help.branch.io/marketer-hub/docs/enable-admobs-new.md): Integrate Admobs with Branch for effective mobile ad campaigns, enabling attribution, postbacks, and deep linking to enhance user engagement.
+- [Enable Adperio (New)](https://help.branch.io/marketer-hub/docs/enable-adperio-new.md): Boost mobile app installs with the Adperio integration in Branch, focusing on user engagement, retention, and effective attribution across channels.
+- [Enable Adtiming (New)](https://help.branch.io/marketer-hub/docs/enable-adtiming-new.md): Connect Adtiming to Branch to attribute clicks and installs across their user acquisition and monetization platform.
+- [Enable Appnext (New)](https://help.branch.io/marketer-hub/docs/enable-appnext-new.md): Integrate Appnext with Branch for seamless app attribution and contextual recommendations on iOS and Android.
+- [Enable Appier (New)](https://help.branch.io/marketer-hub/docs/enable-appier-new.md): Connect Appier to Branch to attribute clicks and installs across their AI-powered advertising platform.
+- [Enable Applabs Media (New)](https://help.branch.io/marketer-hub/docs/enable-applabs-media-new.md): Connect Applabs Media to Branch to attribute clicks and installs on OEM and premium in-app inventory.
+- [Enable Aragon Premium (New)](https://help.branch.io/marketer-hub/docs/enable-aragon-premium-new.md): Integrate Aragon Premium with Branch for effective cost-per-acquisition campaigns, ensuring accurate attribution and seamless user deep linking.
+- [Enable Awin (New)](https://help.branch.io/marketer-hub/docs/enable-awin-new.md): Integrate Awin with Branch to enhance your affiliate marketing, track conversions, and optimize app deep linking for better user engagement.
+- [Enable Bold Screen Media (New)](https://help.branch.io/marketer-hub/docs/enable-bold-screen-media-new.md): Connect Bold Screen Media to Branch to attribute clicks and installs on connected TV, video, audio, and mobile.
+- [Enable BuzzScreen (New)](https://help.branch.io/marketer-hub/docs/enable-buzzscreen-new.md): Connect BuzzScreen to Branch to attribute clicks and installs on lock-screen reward advertising campaigns.
+- [Enable Cashslide (New)](https://help.branch.io/marketer-hub/docs/enable-cashslide-new.md): Integrate Cashslide with Branch to enhance mobile advertising on Android lock screens, rewarding users for ad engagement and optimizing app attribution.
+- [Enable ChatGPT Ads (New)](https://help.branch.io/marketer-hub/docs/enable-chatgpt-ads-new.md): Integrate OpenAI Ads with Branch to measure conversions, optimize campaigns, and enhance performance across multiple platforms seamlessly.
+- [Enable Collectcent Digital Media (New)](https://help.branch.io/marketer-hub/docs/enable-collectcent-digital-media-new.md): Integrate Collectcent Digital Media with Branch for effective user acquisition campaigns, enabling deep linking, attribution, and postback configurations.
+- [Enable Clinch (New)](https://help.branch.io/marketer-hub/docs/enable-clinch-new.md): Integrate Clinch with Branch for ad personalization and dynamic optimization, enhancing your campaign performance across channels.
+- [Enable Criteo (New)](https://help.branch.io/marketer-hub/docs/enable-criteo-new.md): Integrate Criteo with Branch for effective acquisition and retargeting campaigns, enabling deep linking, cost data import, and real-time event tracking.
+- [Enable Glispa (New)](https://help.branch.io/marketer-hub/docs/enable-glispa-new.md): Integrate Glispa with Branch for effective mobile ad campaigns, user acquisition, and retargeting on iOS and Android.
+- [Enable Globale Media (New)](https://help.branch.io/marketer-hub/docs/enable-globale-media-new.md): Integrate Globale Media with Branch for effective user acquisition and performance advertising in mobile apps across various verticals.
+- [Enable Hopbug (New)](https://help.branch.io/marketer-hub/docs/enable-hopbug-new.md): Connect Hopbug to Branch to attribute clicks and installs on programmatic and mobile app-install campaigns.
+- [Enable IconPeak (New)](https://help.branch.io/marketer-hub/docs/enable-iconpeak-new.md): Connect IconPeak to Branch to attribute clicks and installs on machine-learning driven user acquisition campaigns.
+- [Enable Impact (New)](https://help.branch.io/marketer-hub/docs/enable-impact-new.md): Connect Impact to Branch to attribute clicks and installs across affiliate, influencer, and referral partnerships.
+- [Enable InMobi DSP (New)](https://help.branch.io/marketer-hub/docs/enable-inmobi-dsp-new.md): Connect InMobi DSP to Branch to attribute clicks and installs on in-app programmatic campaigns.
+- [Enable ironSource (New)](https://help.branch.io/marketer-hub/docs/enable-ironsource-new.md): Integrate ironSource with Branch for mobile game user acquisition, monetization, and engagement. Optimize campaigns across iOS and Android effortlessly.
+- [Enable Jampp (New)](https://help.branch.io/marketer-hub/docs/enable-jampp-new.md): Integrate Jampp with Branch for effective user acquisition and retargeting campaigns, leveraging contextual signals and seamless attribution.
+- [Enable Kakao (New)](https://help.branch.io/marketer-hub/docs/enable-kakao-new.md): Connect Kakao to Branch to attribute clicks and installs on display, video, and native campaigns across Kakao apps.
+- [Enable Koneo Mobile (New)](https://help.branch.io/marketer-hub/docs/enable-koneo-mobile-new.md): Integrate Koneo Mobile with Branch for effective mobile user acquisition, attribution, and deep linking to enhance your multi-channel marketing strategy.
+- [Enable Liftoff (New)](https://help.branch.io/marketer-hub/docs/enable-liftoff-new.md): Integrate Liftoff with Branch for optimized mobile app marketing and effective user acquisition.
+- [Enable MAAS (Powered by Affle) (New)](https://help.branch.io/marketer-hub/docs/enable-maas-powered-by-affle-new.md): Connect MAAS by Affle to Branch to attribute clicks and installs on mobile user acquisition campaigns.
+- [Enable Manage (New)](https://help.branch.io/marketer-hub/docs/enable-manage-new.md): Integrate Manage with Branch for effective mobile in-app advertising, enabling acquisition, retargeting, and precise attribution of clicks and installs.
+- [Enable MediaMath (New)](https://help.branch.io/marketer-hub/docs/enable-mediamath-new.md): Connect MediaMath to Branch to attribute clicks and installs on programmatic demand-side platform campaigns.
+- [Enable Microsoft Advertising (New)](https://help.branch.io/marketer-hub/docs/enable-microsoft-advertising-new.md): Integrate Microsoft Advertising with Branch to track clicks and installs from Bing and Yahoo ads, optimizing your app's performance.
+- [Enable Mintegral (New)](https://help.branch.io/marketer-hub/docs/enable-mintegral-new.md): Connect Mintegral to Branch to attribute clicks and installs on user acquisition and retargeting campaigns.
+- [Enable Mitraksh Media (New)](https://help.branch.io/marketer-hub/docs/enable-mitraksh-media-new.md): Integrate Mitraksh Media with Branch for seamless mobile ad campaigns, user attribution, and deep linking on iOS and Android.
+- [Enable Mobupps (New)](https://help.branch.io/marketer-hub/docs/enable-mobupps-new.md): Connect Mobupps to Branch to attribute clicks and installs on performance and real-time bidding campaigns.
+- [Enable Mobusi (New)](https://help.branch.io/marketer-hub/docs/enable-mobusi-new.md): Connect Mobusi to Branch to attribute clicks and installs on performance-based user acquisition campaigns.
+- [Enable Moloco (New)](https://help.branch.io/marketer-hub/docs/enable-moloco-new.md): Integrate Moloco with Branch for optimized mobile app advertising, enabling attribution, postbacks, and cost data management for effective campaigns.
+- [Enable Nativex (New)](https://help.branch.io/marketer-hub/docs/enable-nativex-new.md): Connect Nativex to Branch to attribute clicks and installs on media buying and DSP campaigns.
+- [Enable New Innovid (New)](https://help.branch.io/marketer-hub/docs/enable-new-innovid-new.md): Connect New Innovid to Branch to attribute clicks and installs from their ad server and creative management platform.
+- [Enable Partnerize (New)](https://help.branch.io/marketer-hub/docs/enable-partnerize-new.md): Optimize your affiliate and partnership programs with the Partnerize integration for Branch, ensuring seamless attribution and deep linking.
+- [Enable Perform\[cb\] (New)](https://help.branch.io/marketer-hub/docs/enable-performcb-new.md): Connect Perform[cb] to Branch to attribute clicks and installs on pay-for-results user acquisition campaigns.
+- [Enable Pinterest (New)](https://help.branch.io/marketer-hub/docs/enable-pinterest-new.md): Integrate Pinterest with Branch to help optimize conversions and streamline marketing efforts for better app performance.
+- [Enable Rakuten Advertising (New)](https://help.branch.io/marketer-hub/docs/enable-rakuten-advertising-new.md): Integrate Rakuten Advertising with Branch to enhance your app's acquisition and retargeting campaigns, ensuring effective attribution and deep linking.
+- [Enable Reddit (New)](https://help.branch.io/marketer-hub/docs/enable-reddit-new.md): Integrate Reddit with Branch to enhance ad performance, track campaigns, and connect with engaged users across interests and hobbies.
+- [Enable Remerge (New)](https://help.branch.io/marketer-hub/docs/enable-remerge-new.md): Connect Remerge to Branch to attribute clicks and installs on mobile app retargeting and re-engagement campaigns.
+- [Enable ShopBack (New)](https://help.branch.io/marketer-hub/docs/enable-shopback-new.md): Integrate ShopBack with Branch to earn cashback, track conversions, and enhance your app's marketing performance.
+- [Enable Singletap (New)](https://help.branch.io/marketer-hub/docs/enable-singletap-new.md): Integrate SingleTap by Digital Turbine with Branch to enhance app delivery, track installs, and optimize advertising seamlessly.
+- [Enable Tapjoy (New)](https://help.branch.io/marketer-hub/docs/enable-tapjoy-new.md): Integrate Tapjoy with Branch for seamless mobile advertising and app monetization, enabling deep linking, attribution, and real-time event logging.
+- [Enable The Mediafinity (New)](https://help.branch.io/marketer-hub/docs/enable-the-mediafinity-new.md): Integrate The Mediafinity with Branch for effective digital advertising, enabling acquisition, retargeting, and seamless app deep linking.
+- [Enable The Trade Desk (New)](https://help.branch.io/marketer-hub/docs/enable-the-trade-desk-new.md): Connect The Trade Desk to Branch to attribute clicks and installs on programmatic digital advertising campaigns.
+- [Enable Unity Ads (New)](https://help.branch.io/marketer-hub/docs/enable-unity-ads-new.md): Integrate Unity Ads with Branch for effective user acquisition and monetization of mobile apps on iOS and Android.
+- [Enable Vungle (New)](https://help.branch.io/marketer-hub/docs/enable-vungle-new.md): Integrate Vungle with Branch for in-app video advertising, enabling click attribution, deep linking, and effective campaign management.
+- [Enable Wider Planet (New)](https://help.branch.io/marketer-hub/docs/enable-wider-planet-new.md): Connect Wider Planet to Branch to attribute clicks and installs on audience targeting and retargeting campaigns.
+- [Enable Xapads Media (New)](https://help.branch.io/marketer-hub/docs/enable-xapads-media-new.md): Connect Xapads Media to Branch to attribute clicks and installs on AI-driven omnichannel campaigns.
+- [Enable Yeahmobi (New)](https://help.branch.io/marketer-hub/docs/enable-yeahmobi-new.md): Connect Yeahmobi to Branch to attribute clicks and installs on programmatic and performance marketing campaigns.
+- [Enable YouAppi (New)](https://help.branch.io/marketer-hub/docs/enable-youappi-new.md): Integrate YouAppi with Branch for effective mobile performance advertising and retargeting campaigns on iOS and Android apps.
+- [Ad Partner Cost Data (New)](https://help.branch.io/marketer-hub/docs/ad-partner-cost-data-new.md)
+- [Ad Partner Cost Import Overview (New)](https://help.branch.io/marketer-hub/docs/ad-partner-cost-import-overview-new.md): Import ad partner cost data into Branch so you can make ad optimization decisions from complete spend figures.
+- [Ad Partner Cost Data Reporting and Analytics (New)](https://help.branch.io/marketer-hub/docs/ad-partner-cost-data-reporting-and-analytics-new.md): Report on ad partner cost data in Branch so you can measure spend without visiting each partner dashboard.
+- [Import Ad Partner Cost Data (New)](https://help.branch.io/marketer-hub/docs/import-ad-partner-cost-data-new.md)
+- [Import Cost Data Via API Connection (New)](https://help.branch.io/marketer-hub/docs/import-cost-data-via-api-connection-new.md): Import ad partner cost data into Branch through a direct API connection with the partner.
+- [Import Cost Data Via File Upload (New)](https://help.branch.io/marketer-hub/docs/import-cost-data-via-file-upload-new.md): Upload a CSV of ad partner cost data from the Cost Import tab in Branch for one-off or occasional imports.
+- [Import Cost Data Via Email Ingestor (New)](https://help.branch.io/marketer-hub/docs/import-cost-data-via-email-ingestor-new.md): Import ad partner cost data into Branch using an email ingestor alias your partner sends scheduled files to.
+- [Data Partners (New)](https://help.branch.io/marketer-hub/docs/data-partners-new.md)
+- [Data Integration Implementation Guide (New)](https://help.branch.io/marketer-hub/docs/data-integration-implementation-guide-new.md): Send Branch data to data partners with pre-formatted webhooks, and see the setup steps for each integration.
+- [Security & Access](https://help.branch.io/marketer-hub/docs/security-access.md)
+- [Third Party Overview](https://help.branch.io/marketer-hub/docs/third-party-overview.md): Unlock the secrets of effective SEO with our expert tips and strategies to boost your website's visibility and drive more traffic today!
+- [Manage Third Party Access](https://help.branch.io/marketer-hub/docs/manage-third-party-access.md)
+- [Create Your Third Party Account](https://help.branch.io/marketer-hub/docs/create-your-third-party-account.md)
+- [Work with Client Apps in Your Third Party Account](https://help.branch.io/marketer-hub/docs/work-with-client-apps-in-your-third-party-account.md)
+- [Attribution Methods](https://help.branch.io/marketer-hub/docs/attribution-methods.md)
+- [Branch Attribution Explained](https://help.branch.io/marketer-hub/docs/branch-attribution-explained.md): Understand how Branch attributes app installs, opens, and in-app activity to the marketing that drove them.
+- [Funnel Attribution](https://help.branch.io/marketer-hub/docs/funnel-attribution.md): Funnel enhances multi-touch attribution by visualizing user journeys, revealing the impact of up to three touchpoints on conversions for smarter budget decisions.
+- [Attribution Method Exposure](https://help.branch.io/marketer-hub/docs/attribution-method-exposure.md): Learn how Branch's attribution method exposure fields reveal the signals and methodology behind each attribution decision, helping you assess data reliability and diagnose changes in your campaign performance.
+- [Network Performance and Arbitration](https://help.branch.io/marketer-hub/docs/network-performance-and-arbitration.md): Compare Branch numbers with ad network reporting to identify and explain campaign discrepancies.
+- [Predictive Modeling (PREM)](https://help.branch.io/marketer-hub/docs/predictive-modeling.md): Explore how PREM enables app conversion attribution and campaign performance measurement while respecting privacy policies and user consent.
+- [Predictive Aggregate Measurement](https://help.branch.io/marketer-hub/docs/predictive-aggregate-measurement-index.md)
+- [PAM Overview](https://help.branch.io/marketer-hub/docs/predictive-aggregate-measurement.md): Navigate the complexities of mobile attribution with Branch's Predictive Aggregate Measurement (PAM) while ensuring user privacy and optimizing campaign performance.
+- [PAM Data Reference](https://help.branch.io/marketer-hub/docs/predictive-aggregate-measurement-data-reference.md): Explore the log-level data structures in Predictive Aggregate Measurement for marketers and analysts, detailing attribution data for advertisers and publishers.
+- [Configuration and Identifiers](https://help.branch.io/marketer-hub/docs/configuration-and-identifiers.md)
+- [Advertising Identifiers for Attribution](https://help.branch.io/marketer-hub/docs/advertising-identifiers-for-attribution.md): See which advertising identifiers Branch supports on click, install, and event requests, and how they are prioritized.
+- [Re-engagement Attribution Logic & Settings](https://help.branch.io/marketer-hub/docs/re-engagement-attribution-logic-settings.md): Understand how Branch attributes re-engagement separately from installs, and how to configure each setting.
+- [Reports and Exports](https://help.branch.io/marketer-hub/docs/dashboard-exports-index.md)
+- [Overview Page](https://help.branch.io/marketer-hub/docs/branch-summary-page.md): Analyze your performance across channels with Branch's Overview page. Customize views, share insights, and track key metrics effortlessly.
+- [Dashboard Reports](https://help.branch.io/marketer-hub/docs/dashboard-reports.md): View campaign performance across every Branch-integrated channel in the Branch Dashboard reports.
+- [Scheduled Dashboard Email Reports](https://help.branch.io/marketer-hub/docs/scheduled-dashboard-email-reports.md): Schedule Branch analytics reports to be delivered by email to you or a colleague on a recurring basis.
+- [Dashboard Exports](https://help.branch.io/marketer-hub/docs/dashboard-exports.md): Compare the export options in the Branch Dashboard, delivered as CSV files and email attachments.
+- [Dashboard Daily Exports](https://help.branch.io/marketer-hub/docs/dashboard-daily-exports.md): Schedule daily exports of granular Branch data, and see the permissions and agency access rules that apply.
+- [Dashboard Custom Exports](https://help.branch.io/marketer-hub/docs/dashboard-custom-exports.md): Build custom Branch data exports to analyze campaign performance at a granular level, with agency access notes.
+- [Funnel](https://help.branch.io/marketer-hub/docs/branch-funnel.md): Branch Funnel enhances multi-touch attribution by visualizing user journeys, revealing the impact of multiple touchpoints on conversions.
+- [Links](https://help.branch.io/marketer-hub/docs/branch-links.md)
+- [Deep Linking Overview](https://help.branch.io/marketer-hub/docs/deep-linking.md): Understand how Branch deep linking routes users to the right destination across every edge case and platform.
+- [Deep Linking Full Reference](https://help.branch.io/marketer-hub/docs/deep-link-reference.md): Learn to create and configure deep links for Journeys, Ads, and more using the Branch Growth Platform for enhanced user engagement and app installs.
+- [Create Links](https://help.branch.io/marketer-hub/docs/create-branch-links-index.md)
+- [Short Links](https://help.branch.io/marketer-hub/docs/short-links.md)
+- [Create App Links](https://help.branch.io/marketer-hub/docs/create-app-links.md): Create Branch App Links that take users to destinations inside your app, with full attribution and analytics.
+- [Create Web Links](https://help.branch.io/marketer-hub/docs/create-web-links.md): Create Branch Web Links for Activation, so your links work across web and app with full analytics.
+- [Branch Slack App](https://help.branch.io/marketer-hub/docs/branch-slack-app.md): Generate Branch Links directly in Slack with the Branch Slack App, with the same analytics as any Branch Link.
+- [Create In-App Sharing and Referral Links](https://help.branch.io/marketer-hub/docs/in-app-sharing-and-referral-links.md): Create Branch links for in-app sharing and referrals, and trace which users drove installs.
+- [Ad Links](https://help.branch.io/marketer-hub/docs/ad-links-index.md)
+- [Create Ad Links](https://help.branch.io/marketer-hub/docs/ad-links.md): Create Branch Ad Links to give users a consistent experience while capturing full attribution across paid channels.
+- [Manage Links](https://help.branch.io/marketer-hub/docs/manage-links-index.md)
+- [LinkHub](https://help.branch.io/marketer-hub/docs/linkhub.md): Manage Branch links at scale in LinkHub, with collections, bulk actions, and link-level reporting.
+- [Link Templates](https://help.branch.io/marketer-hub/docs/link-templates.md): Create link templates in Branch to apply consistent tagging and configuration when building links at scale.
+- [Verify Links](https://help.branch.io/marketer-hub/docs/verify-links-index.md)
+- [Link Validator](https://help.branch.io/marketer-hub/docs/link-validator.md): Test a Branch Link with Link Validator to confirm it routes users correctly across browsers and platforms.
+- [Troubleshooting](https://help.branch.io/marketer-hub/docs/troubleshooting.md)
+- [Safari Error: Safari cannot open this page because address is invalid](https://help.branch.io/marketer-hub/docs/safari-error-safari-cannot-open-this-page-because-address-is-invalid.md): Fix the Safari error that says the address is invalid when opening a Branch Link, usually caused by caching.
+- [\[Android\] Web Link Opens App](https://help.branch.io/marketer-hub/docs/android-web-only-link-opens-app.md): Debug an Android Branch Link that opens your app when it should open the web, starting with the link data.
+- [\[iOS\] Web Link Opens App](https://help.branch.io/marketer-hub/docs/ios-web-only-link-opens-app.md): Fix an iOS web link that opens your app instead of the browser, for Engagement packages without Activation.
+- [QR Codes](https://help.branch.io/marketer-hub/docs/qr-codes-index.md)
+- [QR Codes Overview](https://help.branch.io/marketer-hub/docs/qr-codes-overview.md): Use Branch QR Codes to connect physical channels like packaging, receipts, and flyers to in-app content.
+- [Create QR Codes](https://help.branch.io/marketer-hub/docs/create-qr-codes.md): Create and customize QR Codes in Branch to deep link users into your app and measure scans across print and digital campaigns.
+- [Manage QR Codes](https://help.branch.io/marketer-hub/docs/manage-your-qr-codes.md): Sort, filter, and manage the QR Codes you have created in Branch, and keep naming and analytics tags consistent across campaigns.
+- [Analyze QR Code Performance](https://help.branch.io/marketer-hub/docs/analyze-qr-code-performance.md): Measure how your Branch QR Codes perform, including scans and downstream conversions, in the Branch Dashboard.
+- [Customize QR Codes](https://help.branch.io/marketer-hub/docs/qr-codes-builder.md): Customize the appearance of Branch QR Codes, including colors, logos, and download formats.
+- [Journeys](https://help.branch.io/marketer-hub/docs/journeys.md)
+- [Journeys Overview](https://help.branch.io/marketer-hub/docs/journeys-overview.md): Turn mobile web visitors into app users with Branch Journeys. Learn how customizable app banners drive installs and measurable conversions.
+- [Journeys Manager](https://help.branch.io/marketer-hub/docs/manage-journeys.md): Manage every Journeys banner and interstitial you have created from the Journeys Manager homepage.
+- [Journeys Use Cases](https://help.branch.io/marketer-hub/docs/journeys-use-cases.md)
+- [Web to App](https://help.branch.io/marketer-hub/docs/web-to-app.md): Turn your mobile website into an acquisition channel with Branch Journeys web-to-app banners.
+- [Email to App](https://help.branch.io/marketer-hub/docs/email-to-app.md): Re-engage customers from email into your app with Branch, so email links open the right in-app content.
+- [Creatives Manager](https://help.branch.io/marketer-hub/docs/creatives-manager.md): Review every Journeys creative in one place with Creatives Manager, including banners, buttons, and interstitials.
+- [Create Journeys](https://help.branch.io/marketer-hub/docs/create-journey-banner-or-interstitial-index.md)
+- [Create Journeys Banners or Interstitials](https://help.branch.io/marketer-hub/docs/create-journey-banner-or-interstitial.md): Create a Journeys banner or interstitial, with prerequisites for SDK integration and domain configuration.
+- [Example Journeys Audience Configuration](https://help.branch.io/marketer-hub/docs/example-journeys.md): See example Journeys audience configurations you can adapt for your own web-to-app campaigns.
+- [Advanced Journeys Configuration](https://help.branch.io/marketer-hub/docs/advanced-journeys-configuration.md): Configure advanced Journeys settings, including iOS Safari Smart App Banner compatibility on your main domain.
+- [Journeys Image Recommendations](https://help.branch.io/marketer-hub/docs/journeys-image-recommendations.md): Follow the image size and format recommendations that make Journeys banners look right on every screen.
+- [Journeys: Desktop Banners](https://help.branch.io/marketer-hub/docs/desktop-journeys.md): Create desktop web-to-app banners with Journeys so desktop visitors are directed to your mobile app.
+- [Journeys Assist](https://help.branch.io/marketer-hub/docs/journeys-assist.md): Combine Journeys banners and interstitials with Branch Ads measurement using Journeys Assist.
+- [Creatives Optimization](https://help.branch.io/marketer-hub/docs/creatives-optimization.md): Measure the performance of your web-to-app banner campaigns with Journeys Creatives Optimization.
+- [Journeys Analytics](https://help.branch.io/marketer-hub/docs/journeys-analytics.md): Review Journeys performance in legacy Analytics. In new Branch, use Analysis dashboards and widgets instead.
+- [Journeys FAQs](https://help.branch.io/marketer-hub/docs/journeys-faqs.md): Answers to common Journeys questions, including Google PageSpeed Insights, SEO, and Cumulative Layout Shift.
+- [Email and SMS](https://help.branch.io/marketer-hub/docs/email.md)
+- [Email Overview](https://help.branch.io/marketer-hub/docs/email-overview.md): Convert your email links into multi-platform deep links with Branch Email so users land on in-app content.
+- [Supported Email Partners](https://help.branch.io/marketer-hub/docs/supported-email-partners.md): Browse every email service provider Branch supports for Branch Email, from Adobe Campaign to Salesforce and SendGrid.
+- [Email Integration Guide](https://help.branch.io/marketer-hub/docs/email-integration-guide.md): Learn to configure and test Branch Email integration with your ESP, ensuring deep linking and click tracking work seamlessly for your app.
+- [Email Link Debugger](https://help.branch.io/marketer-hub/docs/universal-email-link-debugger.md): Diagnose problems with Branch Email links using the Email Link Debugger to see how each link resolves.
+- [SMS](https://help.branch.io/marketer-hub/docs/sms.md): Deep link users from SMS campaigns into your app with Branch so text links open the right in-app content.
+- [Personalization](https://help.branch.io/marketer-hub/docs/personalization-index.md)
+- [Personalization Overview](https://help.branch.io/marketer-hub/docs/personalization.md): Convert email links into multi-platform deep links with Branch Email so users land on personalized content.
+- [Movable Ink - In-App Messages](https://help.branch.io/marketer-hub/docs/movable-ink-in-app-messages.md): Set up Movable Ink in-app message campaigns with Branch so your links deep link users into your app.
+- [Movable Ink - Email](https://help.branch.io/marketer-hub/docs/movable-ink-email.md): Set up Movable Ink email campaigns with Branch Email so your links become multi-platform deep links.
+- [Deepviews](https://help.branch.io/marketer-hub/docs/deepviews-index.md)
+- [Deepviews Overview](https://help.branch.io/marketer-hub/docs/deepviews.md): A Deepview is a Branch-hosted mobile web splash page that previews the in-app content behind a Branch Link.
+- [Enable Deepviews](https://help.branch.io/marketer-hub/docs/enable-deepviews.md): Enable Branch Deepviews for your app, including the app-level permissions required to turn them on.
+- [Deepview Analytics](https://help.branch.io/marketer-hub/docs/deepview-analytics.md): Track how users move through Branch Deepviews on the Deepview Activity page of the Branch Dashboard.
+- [SEO and AIO](https://help.branch.io/marketer-hub/docs/seo-and-aio.md)
+- [SEO and AIO App Attribution](https://help.branch.io/marketer-hub/docs/seo-app-attribution.md): Track and attribute organic traffic from search engines and AI assistants with Branch's SEO + AIO App Attribution feature for enhanced app insights.
+- [Ads](https://help.branch.io/marketer-hub/docs/ads.md)
+- [Ads Overview](https://help.branch.io/marketer-hub/docs/ads-overview.md): Optimize campaign performance and measure full return on investment in Branch with data from every channel.
+- [Supported Ad Partners](https://help.branch.io/marketer-hub/docs/supported-ad-partners.md): A list of all ad partners supported by Branch, including SANs and non-SANs.
+- [SANs](https://help.branch.io/marketer-hub/docs/self-attributing-networks-sans-index.md)
+- [Self-Attributing Networks (SANs) Overview](https://help.branch.io/marketer-hub/docs/self-attributing-networks-sans.md): Learn how Branch integrates with Self-Attributing Networks (SANs) to provide accurate attribution and deep linking for your mobile ad campaigns on Google, Meta, Apple Ads, TikTok, and more. Find detailed support tables for campaign types and analytics.
+- [What is a Self Attributing Network?](https://help.branch.io/marketer-hub/docs/what-is-a-self-attributing-network.md): Understand what self-attributing networks are, how they report conversions, and how Branch works with them.
+- [Configure Events for Self-Attributing Networks](https://help.branch.io/marketer-hub/docs/configuring-events-for-self-attributing-networks.md): Configure which events Branch sends to each self-attributing network so partners receive the right conversions.
+- [Common Sources of SAN Reporting Discrepancies](https://help.branch.io/marketer-hub/docs/common-sources-of-san-reporting-discrepancies.md): Explore Branch Ad Partners, reporting discrepancies, and tips for aligning timezones and metrics for accurate ad performance analysis.
+- [Engagement Attribution for SANs](https://help.branch.io/marketer-hub/docs/engagement-attribution-for-sans.md): Branch supports engagement conversion metrics across a range of ad partners, giving you comprehensive insights and control over the full range of available ad engagement touch types.
+- [SAN Web Tracking](https://help.branch.io/marketer-hub/docs/san-web-tracking.md): Measure self-attributing network web campaigns in Branch alongside your app campaigns for cross-platform reporting.
+- [DMA Compliance for SANs](https://help.branch.io/marketer-hub/docs/dma-compliance-for-sans.md): Meet Google DMA consent requirements for self-attributing networks by passing user consent signals through Branch.
+- [Ads SANs FAQ](https://help.branch.io/marketer-hub/docs/ads-sans-faq.md): Answers to common questions about self-attributing networks in Branch, including Multiple Provider ID errors.
+- [SAN Integration Guides](https://help.branch.io/marketer-hub/docs/san-configuration.md)
+- [Amazon](https://help.branch.io/marketer-hub/docs/amazon-san.md): Enable Branch's Amazon SAN integration to track app installs, in-app events, and optimize campaigns for better ad performance.
+- [Apple Ads](https://help.branch.io/marketer-hub/docs/apple-ads-index.md)
+- [Apple Ads Overview](https://help.branch.io/marketer-hub/docs/apple-ads.md): Track Apple Ads campaigns in Branch by fetching the Apple Ads Attribution API and mapping your campaign parameters.
+- [Enable Apple Ads](https://help.branch.io/marketer-hub/docs/enable-apple-ads.md): Enable Apple Ads in Branch, with prerequisites covering your Branch Dashboard, Ads access, and account setup.
+- [Apple Ads Data & Reporting](https://help.branch.io/marketer-hub/docs/apple-ads-data-reporting.md): Find Apple Ads installs, opens, and view-through conversions in your Branch Dashboard reports and exports.
+- [Roku](https://help.branch.io/marketer-hub/docs/roku.md): Integrate Branch's deep linking and attribution with Roku ads to enhance user journeys and optimize your advertising effectiveness.
+- [Meta Ads](https://help.branch.io/marketer-hub/docs/facebook-ads-index.md)
+- [Meta Ads Overview](https://help.branch.io/marketer-hub/docs/meta-ads-overview.md): Learn how to track Facebook ad-driven installs with Branch Links and optimize your campaigns for better user engagement and analytics.
+- [Meta Advanced Mobile Measurement](https://help.branch.io/marketer-hub/docs/meta-advanced-mobile-measurement.md): Meta is re-enabling Advanced Mobile Measurement reporting. See what attributed data Branch can share and when.
+- [Meta App Install Ads](https://help.branch.io/marketer-hub/docs/meta-app-install-ads.md): Use Branch Links with Meta App Install campaigns to measure ad-driven installs and deep link new users.
+- [Meta Ads Deferred Deep Linking](https://help.branch.io/marketer-hub/docs/meta-ads-deferred-deep-linking.md): Learn how deferred deep linking with Branch and Facebook Ads directs new users to specific app content, enhancing user experience and boosting engagement.
+- [Meta Traffic and Conversion Ads](https://help.branch.io/marketer-hub/docs/meta-traffic-and-conversion-ads.md): Track engagement and installs with Branch Links in Meta Ads, enabling deep linking for new users directly to your app's content.
+- [Meta Platform Ads](https://help.branch.io/marketer-hub/docs/meta-platform-ads.md): Track Meta ad performance and deep link new users to your app content with Branch Links. Set up easily for effective ad campaigns on Facebook.
+- [Meta Business Manager](https://help.branch.io/marketer-hub/docs/meta-business-manager.md): Connect Branch to Meta Business Manager to manage multiple Meta Ad Accounts from one dashboard and authorize those accounts for attribution.
+- [Meta SKAdNetwork](https://help.branch.io/marketer-hub/docs/meta-skadnetwork.md): Measure Meta SKAdNetwork campaigns in Branch, and understand how SKAN changed iOS mobile measurement.
+- [Meta Aggregated Event Measurement](https://help.branch.io/marketer-hub/docs/meta-aggregated-event-measurement.md): Learn how Branch works with Meta's Aggregated Event Measurement (AEM) to enhance campaign tracking on iOS 14.5+, supporting privacy while optimizing app performance.
+- [Meta Ads FAQ](https://help.branch.io/marketer-hub/docs/meta-ads-faq.md): Learn about Meta Ads and how Branch attributes installs and events to optimize your marketing efforts with accurate analytics and reporting.
+- [Twitter Ads](https://help.branch.io/marketer-hub/docs/twitter-ads.md): Connect Twitter Ads to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Google Ads](https://help.branch.io/marketer-hub/docs/google-ads-index.md)
+- [Google Ads Overview](https://help.branch.io/marketer-hub/docs/google-ads.md): Measure Google Ads campaigns in Branch as a Google App Attribution Partner, combining Branch and Google data.
+- [Enable Google App Campaigns](https://help.branch.io/marketer-hub/docs/enable-google-app-campaigns.md): Connect Branch and Google Ads so app conversion data flows to Google for attribution and campaign optimization.
+- [Enable Google Web-Based Campaigns](https://help.branch.io/marketer-hub/docs/enable-google-web-based-campaigns.md): Optimize your app marketing with Google Ads Web-based Campaigns, enabling app installs, deep linking, and effective conversion tracking with Branch.
+- [Google SKAdNetwork](https://help.branch.io/marketer-hub/docs/google-skadnetwork.md): Measure Google Ads SKAdNetwork campaigns in Branch, and understand how SKAN changed iOS mobile measurement.
+- [Google Ads Data & Reporting](https://help.branch.io/marketer-hub/docs/google-ads-data-reporting.md): Understand how Google Ads data flows into Branch after connecting, and where to find it in reporting.
+- [Google Ads Discrepancies](https://help.branch.io/marketer-hub/docs/google-ads-discrepancies.md): Understand the common sources of discrepancy between Google Ads and Branch reporting for SAN campaigns.
+- [Google Ads FAQ](https://help.branch.io/marketer-hub/docs/google-ads-faq.md): Answers to common questions about Google Ads in Branch, including missing ad set dimensions in Analytics.
+- [Yahoo Ads](https://help.branch.io/marketer-hub/docs/yahoo-ads.md): Connect Yahoo Ads to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Google Marketing Platform](https://help.branch.io/marketer-hub/docs/google-marketing-platform-index.md): Integrate Branch with Google Marketing Platform to track app conversions, optimize campaigns, and access valuable attribution data.
+- [Google Marketing Platform Overview](https://help.branch.io/marketer-hub/docs/google-marketing-platform.md): Connect Branch to Google Marketing Platform for seamless app conversion tracking and enhanced ad campaign analysis in your Branch Dashboard.
+- [Enable Google Marketing Platform](https://help.branch.io/marketer-hub/docs/enable-google-marketing-platform.md): Enable Google Marketing Platform with Branch by generating Link IDs, configuring events, and setting attribution windows for effective mobile app tracking.
+- [Doubleclick (Deprecated)](https://help.branch.io/marketer-hub/docs/doubleclick-legacy.md): The Doubleclick integration has been sunset in Branch. Existing setups cannot be created or modified.
+- [Snap](https://help.branch.io/marketer-hub/docs/snap-index.md)
+- [Snap Overview](https://help.branch.io/marketer-hub/docs/snap.md): Connect Snap to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Snap Advanced Conversions](https://help.branch.io/marketer-hub/docs/snap-advanced-conversions.md): Pass hashed user data to Snap Advanced Conversions through Branch to improve matching while respecting ad preferences.
+- [TikTok For Business](https://help.branch.io/marketer-hub/docs/tiktok-for-business-index.md)
+- [TikTok For Business Overview](https://help.branch.io/marketer-hub/docs/tiktok-for-business.md): Measure TikTok For Business campaigns in Branch, with links to enablement, SKAdNetwork, and reporting guides.
+- [Enable TikTok For Business](https://help.branch.io/marketer-hub/docs/enable-tiktok-for-business.md): Connect TikTok For Business using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Enable TikTok Advanced SAN](https://help.branch.io/marketer-hub/docs/enable-tiktok-advanced-san.md): Enable TikTok's Advanced SAN in Branch so both ad link and SAN attribution decisions are sent to TikTok.
+- [TikTok SKAdNetwork](https://help.branch.io/marketer-hub/docs/tiktok-skadnetwork.md): Measure TikTok SKAdNetwork campaigns in Branch, and understand how SKAN changed iOS mobile measurement.
+- [TikTok Data & Reporting](https://help.branch.io/marketer-hub/docs/tiktok-data-reporting.md): Connect TikTok for Business to Branch for seamless campaign performance tracking, real-time reporting, and insights to optimize your advertising strategy.
+- [TikTok Ads Legacy to SAN Migration](https://help.branch.io/marketer-hub/docs/tiktok-legacy-to-san-migration.md): Migrate from the legacy TikTok ads integration to the TikTok SAN integration in Branch with minimal data loss.
+- [Non-SANs](https://help.branch.io/marketer-hub/docs/non-sans.md)
+- [Ad Partner Integration Guide](https://help.branch.io/marketer-hub/docs/ad-partner-integration-guide.md): Connect an ad partner in Branch to track campaign performance, with prerequisites and setup steps.
+- [Add Custom Partners](https://help.branch.io/marketer-hub/docs/adding-custom-partners.md): Add a custom ad partner in Branch when your partner is not already in the supported partner list.
+- [Ads (non-SANs) FAQ](https://help.branch.io/marketer-hub/docs/ads-non-sans-faq.md): Answers to common questions about non-self-attributing ad networks in Branch, including resetting partner settings.
+- [Postbacks](https://help.branch.io/marketer-hub/docs/postbacks-index.md)
+- [Postbacks Overview](https://help.branch.io/marketer-hub/docs/postbacks.md): Understand Branch postbacks, the signal sent to non-self-attributing ad networks when a conversion is attributed.
+- [Basic Postback Configuration](https://help.branch.io/marketer-hub/docs/basic-postback-configuration.md): Configure ad network postbacks in Branch so partners are notified when Branch attributes a conversion to them.
+- [Test Postbacks](https://help.branch.io/marketer-hub/docs/testing-postbacks.md): Test your Branch postback configuration before launching campaigns to confirm partners receive the right events.
+- [Multiple Goal ID Support](https://help.branch.io/marketer-hub/docs/multiple-goal-id-support.md): Send different postbacks for the same event based on multiple Goal IDs specified in your partner configuration.
+- [Partner-Specific Integration Guides](https://help.branch.io/marketer-hub/docs/custom-partner-integration-guides.md)
+- [3.14 Digital](https://help.branch.io/marketer-hub/docs/314-digital.md): Connect 3.14 Digital to Branch for attribution and deep linking across their performance marketing affiliate network.
+- [AdAction](https://help.branch.io/marketer-hub/docs/adaction.md): Connect AdAction to Branch for attribution and deep linking across their mobile app marketing platform.
+- [AdColony - Standard](https://help.branch.io/marketer-hub/docs/adcolony.md): Connect AdColony to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [AdColony Performance Media](https://help.branch.io/marketer-hub/docs/adcolony-performance-media.md): Connect AdColony Performance Media to Branch for attribution and deep linking on in-app campaigns.
+- [Adikteev](https://help.branch.io/marketer-hub/docs/adikteev.md): Connect Adikteev to Branch for attribution and deep linking on app re-engagement campaigns.
+- [Admobs](https://help.branch.io/marketer-hub/docs/admobs.md): Connect Admobs to Branch for attribution and deep linking, and review the partner capabilities they support.
+- [Adperio](https://help.branch.io/marketer-hub/docs/adperio.md): Connect Adperio to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Adtiming](https://help.branch.io/marketer-hub/docs/adtiming.md): Connect AdTiming to Branch for attribution and deep linking across their mobile advertising platform.
+- [Appier](https://help.branch.io/marketer-hub/docs/appier.md): Connect Appier to Branch for attribution and deep linking across their AI-driven marketing platform.
+- [AppLovin](https://help.branch.io/marketer-hub/docs/applovin.md): Connect AppLovin to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Applabs Media](https://help.branch.io/marketer-hub/docs/applabs-media.md): Connect Applabs Media to Branch for attribution and deep linking, and review the partner capabilities they support.
+- [Appmontize Media](https://help.branch.io/marketer-hub/docs/appmontize-media.md): Connect Appmontize Media to Branch for attribution and deep linking, and review the partner capabilities they support.
+- [AppNext](https://help.branch.io/marketer-hub/docs/appnext.md): Connect AppNext to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Aragon Premium](https://help.branch.io/marketer-hub/docs/aragon-premium.md): Connect Aragon Premium to Branch for attribution and deep linking on cost-per-acquisition campaigns.
+- [Aura from Unity](https://help.branch.io/marketer-hub/docs/aura.md): Connect Aura from Unity to Branch for attribution and deep linking on OEM and carrier preload campaigns.
+- [Awin](https://help.branch.io/marketer-hub/docs/awin.md): Connect Awin to Branch for attribution and deep linking across their global affiliate network.
+- [Bing Ads](https://help.branch.io/marketer-hub/docs/bing-ads.md): Optimize your Bing Ads campaigns with Branch's integration to support accurate conversion tracking and effective ad management.
+- [Bold Screen Media](https://help.branch.io/marketer-hub/docs/bold-screen-media.md): Connect Bold Screen Media to Branch for attribution and deep linking, and review the partner capabilities they support.
+- [BuzzScreen](https://help.branch.io/marketer-hub/docs/buzzscreen.md): Connect BuzzScreen to Branch for attribution and deep linking across their South Korea, Japan, and Taiwan network.
+- [CashSlide](https://help.branch.io/marketer-hub/docs/cashslide.md): Connect CashSlide to Branch for attribution and deep linking on their Android lock screen advertising network.
+- [Clinch](https://help.branch.io/marketer-hub/docs/clinch.md): Connect Clinch to Branch for attribution and deep linking on AI-powered personalized creative campaigns.
+- [Collectcent Digital Media](https://help.branch.io/marketer-hub/docs/collectcent-digital-media.md): Connect Collectcent Digital Media to Branch for attribution and deep linking on programmatic campaigns.
+- [Criteo](https://help.branch.io/marketer-hub/docs/criteo.md): Connect Criteo to Branch for attribution and deep linking on performance display campaigns.
+- [Glispa](https://help.branch.io/marketer-hub/docs/glispa.md): Connect Glispa to Branch for attribution and deep linking across their mobile ad tech solutions.
+- [Globale Media](https://help.branch.io/marketer-hub/docs/globale-media.md): Connect Globale Media to Branch for attribution and deep linking on branding and user acquisition campaigns.
+- [Hopbug](https://help.branch.io/marketer-hub/docs/hopbug.md): Connect Hopbug to Branch for attribution and deep linking on programmatic digital campaigns.
+- [IconPeak](https://help.branch.io/marketer-hub/docs/iconpeak.md): Connect IconPeak to Branch for attribution and deep linking on user acquisition campaigns.
+- [Impact](https://help.branch.io/marketer-hub/docs/impact.md): Connect Impact to Branch for attribution and deep linking across partnership and affiliate campaigns.
+- [InMobi](https://help.branch.io/marketer-hub/docs/inmobi.md): Connect InMobi to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [InMobi DSP](https://help.branch.io/marketer-hub/docs/inmobi-dsp.md): Connect InMobi DSP to Branch for attribution and deep linking on in-app programmatic campaigns.
+- [ironSource](https://help.branch.io/marketer-hub/docs/ironsource.md): Connect ironSource to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Jampp](https://help.branch.io/marketer-hub/docs/jampp.md): Connect Jampp to Branch for attribution and deep linking on programmatic growth campaigns for on-demand apps.
+- [Kakao](https://help.branch.io/marketer-hub/docs/kakao.md): Connect Kakao to Branch for attribution and deep linking across their messaging, gaming, and commerce platform.
+- [Koneo Mobile Inc.](https://help.branch.io/marketer-hub/docs/koneo-mobile-inc.md): Connect Koneo Mobile to Branch for attribution and deep linking on multi-channel marketing campaigns.
+- [Liftoff](https://help.branch.io/marketer-hub/docs/liftoff.md): Connect Liftoff to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [MAAS (Powered by Affle)](https://help.branch.io/marketer-hub/docs/maas.md): Connect MAAS by Affle to Branch for attribution and deep linking on mobile commerce and marketing campaigns.
+- [Manage](https://help.branch.io/marketer-hub/docs/manage.md): Connect Manage to Branch for attribution and deep linking on in-app advertising campaigns.
+- [MediaMath](https://help.branch.io/marketer-hub/docs/mediamath.md): Connect MediaMath to Branch for attribution and deep linking on programmatic campaigns.
+- [Mintegral](https://help.branch.io/marketer-hub/docs/mintegral.md): Connect Mintegral to Branch for attribution and deep linking on their self-service advertising platform.
+- [Mitraksh Media](https://help.branch.io/marketer-hub/docs/mitraksh-media.md): Connect Mitraksh Media to Branch for attribution and deep linking, and review the capabilities they support.
+- [Mobupps](https://help.branch.io/marketer-hub/docs/mobupps.md): Connect Mobupps to Branch for attribution and deep linking on performance advertising campaigns.
+- [Mobusi](https://help.branch.io/marketer-hub/docs/mobusi.md): Connect Mobusi to Branch for attribution and deep linking on performance advertising campaigns.
+- [MOLOCO](https://help.branch.io/marketer-hub/docs/moloco.md): Connect Moloco to Branch for attribution and deep linking on machine-learning driven DSP campaigns.
+- [Nativex](https://help.branch.io/marketer-hub/docs/nativex.md): Connect Nativex to Branch for attribution and deep linking on mobile marketing automation campaigns.
+- [Partnerize](https://help.branch.io/marketer-hub/docs/partnerize.md): Connect Partnerize to Branch for attribution and deep linking on brand partnership campaigns.
+- [Perform\[cb\]](https://help.branch.io/marketer-hub/docs/performcb.md): Connect Perform[cb] to Branch for attribution and deep linking on performance marketing campaigns.
+- [Pinterest](https://help.branch.io/marketer-hub/docs/pinterest.md): Learn how to integrate Pinterest and Branch for effective ad tracking.
+- [Rakuten Advertising](https://help.branch.io/marketer-hub/docs/rakuten-marketing.md): Connect Rakuten Marketing to Branch for attribution and deep linking on integrated marketing campaigns.
+- [Reddit](https://help.branch.io/marketer-hub/docs/reddit.md): Connect Reddit to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Remerge](https://help.branch.io/marketer-hub/docs/remerge.md): Connect Remerge to Branch for attribution and deep linking on incremental app retargeting campaigns.
+- [RTB House](https://help.branch.io/marketer-hub/docs/rtb-house.md): Connect RTB House to Branch for attribution and deep linking on their digital advertising campaigns.
+- [Salesforce - Open App Default](https://help.branch.io/marketer-hub/docs/salesforce-open-app-default.md): Configure Salesforce Marketing Cloud with Branch Email so links open your app by default.
+- [Salesforce - Open Web Default](https://help.branch.io/marketer-hub/docs/salesforce-open-web-default.md): Configure Salesforce Marketing Cloud with Branch Email so links open the web by default.
+- [Shopback](https://help.branch.io/marketer-hub/docs/shopback.md): Connect ShopBack to Branch for attribution and deep linking on rewards and shopping discovery campaigns.
+- [SingleTap by Digital Turbine](https://help.branch.io/marketer-hub/docs/singletap-configuration.md): Connect SingleTap by Digital Turbine to Branch for app advertising, delivery, and attribution.
+- [Stitch](https://help.branch.io/marketer-hub/docs/stitch.md): Send Branch event data to Stitch using Branch webhooks so your warehouse receives Branch data automatically.
+- [Tapjoy](https://help.branch.io/marketer-hub/docs/tapjoy.md): Connect Tapjoy to Branch for attribution and deep linking on mobile advertising and monetization campaigns.
+- [The Mediafinity](https://help.branch.io/marketer-hub/docs/the-mediafinity.md): Connect The Mediafinity to Branch for attribution and deep linking on digital advertising campaigns.
+- [The Trade Desk](https://help.branch.io/marketer-hub/docs/the-trade-desk.md): Connect The Trade Desk to Branch for attribution and deep linking on programmatic real-time bidding campaigns.
+- [Unity Ads](https://help.branch.io/marketer-hub/docs/unity-ads.md): Connect Unity Ads to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [Vungle](https://help.branch.io/marketer-hub/docs/vungle.md): Connect Vungle to Branch for attribution and deep linking on in-app video advertising campaigns.
+- [Wider Planet](https://help.branch.io/marketer-hub/docs/wider-planet.md): Connect Wider Planet to Branch for attribution and deep linking on big-data audience targeting campaigns.
+- [Xapads Media](https://help.branch.io/marketer-hub/docs/xapads-media.md): Connect Xapads Media to Branch for attribution and deep linking on programmatic ad exchange campaigns.
+- [Yeahmobi](https://help.branch.io/marketer-hub/docs/yeahmobi.md): Connect Yeahmobi to Branch for attribution and deep linking on mobile performance marketing campaigns.
+- [YouAppi](https://help.branch.io/marketer-hub/docs/youappi.md): Connect YouAppi to Branch using the legacy ads experience. For new Branch, see the current ad partner guides.
+- [ROI Hub](https://help.branch.io/marketer-hub/docs/roi-hub-index.md)
+- [ROI Hub Overview](https://help.branch.io/marketer-hub/docs/roi-hub.md): Analyze ad spend against attributed revenue in ROI Hub to see the return on your marketing investment.
+- [Templates for Cost Data](https://help.branch.io/marketer-hub/docs/templates-for-cost-data.md): Create a file template for an ad partner before setting up cost data email imports or file uploads in Branch.
+- [Share Cost Data With Branch](https://help.branch.io/marketer-hub/docs/share-cost-data-with-branch.md)
+- [Via API Connection](https://help.branch.io/marketer-hub/docs/cost-data-via-api-connection.md): Enable ad partner cost data in Branch through a direct API connection with the partner.
+- [Via Email Import](https://help.branch.io/marketer-hub/docs/cost-data-via-email-import.md): Import ad partner cost data into ROI Hub using a unique email alias your partner can send reports to.
+- [Via File Upload](https://help.branch.io/marketer-hub/docs/cost-data-via-file-upload.md): Upload ad partner cost data to ROI Hub from the Branch Dashboard using the File Upload view.
+- [Reporting and Analytics](https://help.branch.io/marketer-hub/docs/cost-data-reporting-analytics.md): View cost data across all your integrated ad partners in the Branch Dashboard to guide ad optimization decisions.
+- [Household Measurement](https://help.branch.io/marketer-hub/docs/household-measurement-index.md)
+- [Supported OTT Partners](https://help.branch.io/marketer-hub/docs/supported-ott-partners.md): Browse all OTT partners supported by Branch, including Roku, Fire TV, Apple TV, Hulu, YouTube TV, and more. Find integration guides for each platform.
+- [Household Measurement Overview](https://help.branch.io/marketer-hub/docs/household-measurement.md): Attribute conversions across household devices with Branch Household Measurement, including connected TVs.
+- [Ads Reporting](https://help.branch.io/marketer-hub/docs/ads-reporting.md)
+- [Unified Analytics](https://help.branch.io/marketer-hub/docs/unified-analytics.md): Unified Analytics simplifies campaign data analysis for better insights.
+- [Ads Analytics](https://help.branch.io/marketer-hub/docs/paid-ads-analytics.md): Review ads performance in legacy Ads Analytics. In new Branch, use Analysis dashboards and widgets instead.
+- [Cohort Analytics](https://help.branch.io/marketer-hub/docs/cohort-analytics.md): Measure campaign ROI over time with Branch Cohort Analytics to guide future investment and targeting decisions.
+- [Ads Reporting FAQ](https://help.branch.io/marketer-hub/docs/ads-reporting-faq.md): Answers to the most frequently asked questions about ads reporting in Branch, covering metrics, exports, and discrepancies.
+- [Additional Configuration](https://help.branch.io/marketer-hub/docs/additional-configuration.md)
+- [Create Branch Links for Product Feeds](https://help.branch.io/marketer-hub/docs/creating-branch-links-for-product-feeds.md): Generate Branch Links at scale for product feeds so each item routes users to the right in-app content.
+- [Ads Advanced Configurations](https://help.branch.io/marketer-hub/docs/ads-advanced-configuration.md): Configure advanced Branch ads settings, including agency access, data filters, and postback controls.
+- [Testing](https://help.branch.io/marketer-hub/docs/testing-troubleshooting.md)
+- [Ad Partner Integration Testing](https://help.branch.io/marketer-hub/docs/ad-partner-integration-testing.md): Verify your Ad Partnership integration with Branch's live testing process, ensuring accurate data and optimal user experience on iOS and Android devices.
+- [Test Ads Campaign Setup](https://help.branch.io/marketer-hub/docs/testing-ads-campaign-setup.md): Test your Branch ads campaign setup before going live, with requirements for SDK, link behavior, and attribution.
+- [View Through Attribution (VTA) Testing](https://help.branch.io/marketer-hub/docs/view-through-attribution-vta-testing.md): Test view-through attribution in Branch to confirm conversions after an ad impression are measured correctly.
+- [Fraud](https://help.branch.io/marketer-hub/docs/fraud-index.md)
+- [Fraud Overview](https://help.branch.io/marketer-hub/docs/fraud.md): Prevent wasted ad spend with Branch fraud detection, combining accurate detection with fast blocking.
+- [Manage Fraud Rules](https://help.branch.io/marketer-hub/docs/fraud-rules.md): Create fraud rules in Branch to block erroneous attribution credit in real time, stop bad postbacks to ad networks, and keep your reporting clean.
+- [Fraud Analytics](https://help.branch.io/marketer-hub/docs/fraud-analytics.md): Review blocked fraudulent activity in Branch Fraud Analytics, powered by an intelligent real-time blocklist.
+- [In-Depth Fraud & Recommendations](https://help.branch.io/marketer-hub/docs/in-depth-fraud-recommendations.md): Understand the attribution fraud types Branch detects, including attribution hijacking and fake activity.
+- [Engagement Builder](https://help.branch.io/marketer-hub/docs/engagement-builder-folder.md)
+- [Engagement Builder Overview](https://help.branch.io/marketer-hub/docs/engagement-builder.md): Build audiences with Branch Engagement Builder to re-target lapsed users and increase sessions and purchases.
+- [Enable Engagement Builder](https://help.branch.io/marketer-hub/docs/enable-engagement-builder.md): Enable Engagement Builder to create targeted engagement groups for re-engagement campaigns while adhering to data usage restrictions.
+- [Manage Your Engagement Groups](https://help.branch.io/marketer-hub/docs/manage-your-engagement-groups.md): View and manage your Branch engagement groups in the Engagement Manager table, including collaborators.
+- [SKAdNetwork and iOS](https://help.branch.io/marketer-hub/docs/skadnetwork-ios-versions.md)
+- [iOS Attribution Best Practices](https://help.branch.io/marketer-hub/docs/ios-attribution-best-practices.md): Maximize your iOS campaign measurement with Branch's PAM alongside tools like Meta AEM and Google ICM.
+- [SKAdNetwork](https://help.branch.io/marketer-hub/docs/skadnetwork-index.md)
+- [SKAdNetwork Overview](https://help.branch.io/marketer-hub/docs/skadnetwork.md): Understand SKAdNetwork, Apple's iOS attribution framework, and how Branch uses it to measure campaigns.
+- [Enable SKAdNetwork](https://help.branch.io/marketer-hub/docs/enable-skadnetwork.md): Set up SKAdNetwork with Branch using Magic Setup, or configure conversion values and granular settings yourself.
+- [SKAdNetwork Dashboard Reports](https://help.branch.io/marketer-hub/docs/skadnetwork-dashboard-reports.md): Review SKAdNetwork performance in legacy dashboard reports. In new Branch, use Analysis dashboards instead.
+- [SKAdNetwork Agency Permissions](https://help.branch.io/marketer-hub/docs/skadnetwork-agency-permissions.md): Grant agencies specific SKAdNetwork permissions and access rights in the Branch Dashboard.
+- [SKAdNetwork Direct Postback](https://help.branch.io/marketer-hub/docs/skadnetwork-direct-postback.md): Receive the winning SKAdNetwork postback directly in your app on iOS 15 and later using the required entitlement.
+- [SKAdNetwork Data](https://help.branch.io/marketer-hub/docs/skadnetwork-data.md): Reference the SKAdNetwork postback data tiers and measurement windows Branch receives for each postback.
+- [SKAdNetwork FAQ](https://help.branch.io/marketer-hub/docs/skadnetwork-faq.md): Explore SKAdNetwork FAQs, including tracking, conversion values, and attribution methods, to optimize your app marketing strategies effectively.
+- [iOS 14 FAQs](https://help.branch.io/marketer-hub/docs/ios-14-faqs.md)
+- [Preparing for iOS 14.5 Release FAQ](https://help.branch.io/marketer-hub/docs/preparing-for-ios-14-release-faq.md): Answers to common questions about preparing your Branch implementation for the iOS 14.5 release.
+- [General iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/general-ios-14-faq.md): Answers to common questions about iOS 14, App Tracking Transparency, and how Branch attribution adapted.
+- [Complying with Apple's Policy FAQ](https://help.branch.io/marketer-hub/docs/complying-with-apples-policy-faq.md): Answers to common questions about complying with Apple's App Tracking Transparency policy when using Branch.
+- [AppTrackingTransparency FAQ](https://help.branch.io/marketer-hub/docs/apptrackingtransparency-faq.md): Answers to common questions about AppTrackingTransparency and the Branch SDK, including whether Branch triggers the prompt.
+- [Google & iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/google-ios-14-faq.md): Answers to common questions about Google campaigns under iOS 14, including ATT prompt behavior on reinstall.
+- [Meta & iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/meta-ios-faq.md): Answers to common questions about Meta campaigns under iOS 14, including ad account and SKAdNetwork requirements.
+- [Snap & iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/snap-ios-14-faq.md): Answers to common questions about Snap campaigns under iOS 14, including their SKAdNetwork approach with Branch.
+- [Apple Ads & iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/apple-ads-ios-14-faq.md): Answers to common questions about Apple Ads and iOS 14 in Branch, including the AdServices API update.
+- [Other Networks & iOS 14 FAQ](https://help.branch.io/marketer-hub/docs/other-networks-ios-14-faq.md): Answers to common questions about how other ad networks handled iOS 14 and SKAdNetwork alongside Branch.
+- [Other Troubleshooting FAQ](https://help.branch.io/marketer-hub/docs/other-troubleshooting-faq.md): Troubleshooting steps for Branch deep links on iOS 14, including universal linking problems.
+- [Data Feeds](https://help.branch.io/marketer-hub/docs/advanced-data-feeds.md)
+- [Data Integration Implementation Guide](https://help.branch.io/marketer-hub/docs/data-integration-implementation-guide.md): Send Branch data to your analytics and marketing tools with pre-formatted webhooks, and see the setup steps.
+- [Supported Data Integration Partners](https://help.branch.io/marketer-hub/docs/supported-data-integration-partners.md): All the data integration partners supported by Branch.
+- [Webhooks](https://help.branch.io/marketer-hub/docs/webhooks.md): Export Branch install and down-funnel event data as it happens with webhooks, then import it into your own systems for analysis.
+- [Liveview](https://help.branch.io/marketer-hub/docs/liveview-index.md)
+- [Liveview](https://help.branch.io/marketer-hub/docs/liveview.md): Debug Branch objects with legacy Liveview. In new Branch, Liveview lives under Testing and Monitoring.
+- [Guide to Meta Attribution Changes for iOS 14](https://help.branch.io/marketer-hub/docs/meta-ios-14.md): Understand how Meta handles IDFA and attribution under App Tracking Transparency, and what it means for Branch.
+- [Activation Migration Guide](https://help.branch.io/marketer-hub/docs/activation-migration-guide.md): Migrate to Branch Activation, the enterprise solution for custom QR Codes and Short Links across web and app.
+- [Legacy Quick Link Creation](https://help.branch.io/marketer-hub/docs/legacy-link-creation.md): Create Branch Quick Links for social media, blog posts, and influencer campaigns in the legacy interface.
+- [General SEO Compatibility](https://help.branch.io/marketer-hub/docs/general-seo-compatibility.md): Understand how Branch Links affect SEO and search rankings, and the safeguards Branch built in.
+- [Activation Guide](https://help.branch.io/marketer-hub/docs/activation-guide.md): Create shortened Web and App Links with custom QR codes using Branch Activation, and see how each link type works.
+- [Third Party Integrations and PII](https://help.branch.io/marketer-hub/docs/third-party-integrations-and-pii.md): Understand what personally identifiable information may be collected by third-party integrations you configure in Branch.
+- [Professional Services](https://help.branch.io/marketer-hub/docs/professional-services.md): Branch Professional Services provide onboarding, technical audits, and ongoing consulting for your Branch implementation.
+- [Journeys Dynamic Optimization](https://help.branch.io/marketer-hub/docs/journeys-dynamic-optimization.md): Automate creative testing and visitor allocation for your Journeys banners with Dynamic Optimization.
+- [Obscured Data](https://help.branch.io/marketer-hub/docs/obscured-data.md): Understand why Branch obscures some data, covering privacy protocols, Predictive Aggregate Measurement, and aggregate reporting.
+- [Meta Aggregate Reporting Changes](https://help.branch.io/marketer-hub/docs/meta-aggregate-reporting-changes.md): Understand the Meta aggregate reporting practices Branch follows as a certified mobile measurement partner.
+- [Social CMS URL](https://help.branch.io/marketer-hub/docs/social-cms.md): Use Social CMS URLs with Branch to deep link from social content management platforms, currently in beta.
+- [Legacy Branch Overview](https://help.branch.io/marketer-hub/docs/branch-dashboard-overview.md): Find your way around the legacy Branch interface, and see which pages have moved in the new Branch experience.
+
+## Developer Hub
+
+- [Get Started](https://help.branch.io/developer-hub/docs/get-started-developer-hub.md)
+- [Developer Hub Overview](https://help.branch.io/developer-hub/docs/developer-hub-overview.md): Start here for Branch technical documentation, covering SDK integration and advanced features across mobile, web, and server.
+- [Products](https://help.branch.io/developer-hub/docs/products.md): Boost user engagement and ad performance with Branch's Growth Platform, featuring personalized links, deep linking, and advanced analytics for optimized campaigns.
+- [Glossary](https://help.branch.io/developer-hub/docs/glossary.md): Look up terms commonly used in Branch, listed alphabetically, from deep linking and attribution to links and analytics.
+- [Branch University](https://help.branch.io/developer-hub/docs/branch-university.md): Learn Branch with on-demand courses for marketers, product managers, and developers, from first implementation to measurable revenue.
+- [Onboarding](https://help.branch.io/developer-hub/docs/onboarding-marketer-hub.md)
+- [Onboarding Guide](https://help.branch.io/developer-hub/docs/onboarding-guide.md): Onboard to Branch to optimize your mobile growth and attribution solutions. Learn how to track Branch Events, create Journeys, and set up third-party analytics data integrations.
+- [Activation Onboarding Guide](https://help.branch.io/developer-hub/docs/activation-onboarding-guide.md): Create custom QR codes and short links effortlessly with Branch Activation, enhancing user engagement across web and app with insightful analytics.
+- [MMP Migration Guide](https://help.branch.io/developer-hub/docs/mmp-migration-guide.md): Migrate to Branch from Adjust, Singular, Kochava, or AppsFlyer, with an audit checklist and best practices for the transition.
+- [Migrating Firebase Dynamic Links to Branch Links](https://help.branch.io/developer-hub/docs/migrating-firebase-dynamic-links-to-branch-links.md): Migrate from Firebase Dynamic Links to Branch Links ahead of the Firebase deprecation, with a step-by-step path.
+- [Branch MCP](https://help.branch.io/developer-hub/docs/branch-mcp.md): Connect your AI assistant to Branch analytics with Branch MCP, so you can ask questions and get answers from your current data.
+- [New Branch](https://help.branch.io/developer-hub/docs/new-branch.md)
+- [Configuration (New)](https://help.branch.io/developer-hub/docs/configuration-new.md)
+- [Data Partners (New)](https://help.branch.io/developer-hub/docs/data-partners-new.md)
+- [Custom Export Provider Technical Guides (New)](https://help.branch.io/developer-hub/docs/custom-export-provider-technical-guides-new.md)
+- [Airship Configuration (New)](https://help.branch.io/developer-hub/docs/airship-configuration-new.md): Send Branch event data to Airship so you can deliver relevant, orchestrated messages across any channel.
+- [Batch Configuration (New)](https://help.branch.io/developer-hub/docs/batch-configuration-new.md): Send Branch event data to Batch.com for push notification campaigns and mobile analytics.
+- [Braze Configuration (New)](https://help.branch.io/developer-hub/docs/braze-configuration-new.md): Send Branch event data to Braze so you can build messaging campaigns from Branch attribution and event data.
+- [CleverTap (Export) Configuration (New)](https://help.branch.io/developer-hub/docs/clevertap-data-configuration-new.md): Send Branch impression, click, install, and in-app event data to CleverTap to evaluate campaign performance.
+- [Google Analytics 4 Configuration (New)](https://help.branch.io/developer-hub/docs/google-analytics-4-configuration-new.md): Send Branch referral data to Google Analytics 4 to measure Branch as an acquisition and re-engagement pathway.
+- [Google Analytics Configuration (New)](https://help.branch.io/developer-hub/docs/google-analytics-configuration-new.md): Send Branch referral data to Google Analytics to measure Branch as an acquisition and re-engagement pathway.
+- [Leanplum Configuration (New)](https://help.branch.io/developer-hub/docs/leanplum-configuration-new.md): Send Branch event data to Leanplum to drive app engagement campaigns from Branch attribution data.
+- [MoEngage Configuration (New)](https://help.branch.io/developer-hub/docs/moengage-configuration-new.md): Send Branch event data to MoEngage to power omnichannel customer engagement campaigns.
+- [Movable Ink Configuration (New)](https://help.branch.io/developer-hub/docs/movable-ink-configuration-new.md): Send real-time Branch behavioral data to Movable Ink to personalize customer engagement.
+- [mParticle (Export) Configuration (New)](https://help.branch.io/developer-hub/docs/mparticle-export-configuration-new.md): Send Branch event data to mParticle to measure Branch as an acquisition pathway and export data downstream.
+- [Segment (Export) Configuration (New)](https://help.branch.io/developer-hub/docs/segment-export-configuration-new.md): Send Branch event data to Segment to measure Branch as an acquisition pathway and export data downstream.
+- [Custom Import Provider Technical Guides (New)](https://help.branch.io/developer-hub/docs/custom-import-provider-technical-guides-new.md)
+- [mParticle (Import) Configuration (New)](https://help.branch.io/developer-hub/docs/mparticle-import-configuration-new.md): Import mParticle events into Branch to attribute downstream conversions across web and app to Branch link clicks.
+- [Segment (Import) Configuration (New)](https://help.branch.io/developer-hub/docs/segment-import-configuration-new.md): Import Segment events into Branch to attribute downstream conversions across web and app to Branch link clicks.
+- [Branch SDKs](https://help.branch.io/developer-hub/docs/branch-sdks.md)
+- [Branch SDK Overview](https://help.branch.io/developer-hub/docs/native-sdks-overview.md): View all Branch SDKs that you can integrate into your various apps and websites.
+- [Dashboard SDK Integration Guide](https://help.branch.io/developer-hub/docs/sdk-integration-tracker.md): Use the interactive Branch Dashboard guides to integrate the iOS, Android, and Web SDKs and track your progress.
+- [Importing Historical User Data](https://help.branch.io/developer-hub/docs/importing-historical-user-data.md): Import historical user data into Branch so existing users are not logged as new installs when you adopt the SDK.
+- [Native SDKs](https://help.branch.io/developer-hub/docs/native-sdks.md)
+- [Android SDK](https://help.branch.io/developer-hub/docs/android-sdk.md)
+- [Android SDK Overview](https://help.branch.io/developer-hub/docs/android-sdk-overview.md): Learn the basics of the Branch Android SDK.
+- [Android SDK Basic Integration](https://help.branch.io/developer-hub/docs/android-basic-integration.md): Integrate the Branch Android SDK with our step-by-step guide, ensuring proper configuration and support for various Android API versions.
+- [Android SDK Advanced Features](https://help.branch.io/developer-hub/docs/android-advanced-features.md): Implement advanced Branch Android SDK features in Kotlin or Java, with prerequisites and code for each method.
+- [Android SDK Testing](https://help.branch.io/developer-hub/docs/android-testing.md): Test your Branch Android SDK integration with these scenarios and tools to confirm deep linking and attribution work.
+- [Android SDK Troubleshooting](https://help.branch.io/developer-hub/docs/android-troubleshooting.md): Fix common problems when integrating the Branch Android SDK, with causes and solutions for each issue.
+- [Android Instant Apps](https://help.branch.io/developer-hub/docs/android-instant-apps.md): Set up Branch deep linking for Google Android Instant Apps so users can load part of your app without installing it.
+- [Android SDK Version History](https://help.branch.io/developer-hub/docs/android-version-history.md): Find the version history and release notes for the Branch Android SDK in the open-source GitHub repository.
+- [Android SDK Full Reference](https://help.branch.io/developer-hub/docs/android-full-reference.md): Full reference for the Branch Android SDK, covering every method, parameter, and return value available to your app.
+- [iOS SDK](https://help.branch.io/developer-hub/docs/ios-sdk.md)
+- [iOS SDK Overview](https://help.branch.io/developer-hub/docs/ios-sdk-overview.md): Learn the basics of the Branch iOS SDK.
+- [iOS SDK Basic Integration](https://help.branch.io/developer-hub/docs/ios-basic-integration.md): Integrate the Branch iOS SDK with our step-by-step guide, covering configuration, installation, and validation for seamless deep linking and tracking.
+- [iOS SDK Advanced Features](https://help.branch.io/developer-hub/docs/ios-advanced-features.md): Implement advanced Branch iOS SDK features in Swift or Objective-C, with prerequisites and code for each method.
+- [iOS SDK Testing](https://help.branch.io/developer-hub/docs/ios-testing.md): Test your Branch iOS SDK integration with these scenarios and tools to confirm deep linking and attribution work.
+- [iOS SDK Troubleshooting](https://help.branch.io/developer-hub/docs/ios-troubleshooting.md): Fix common problems when integrating the Branch iOS SDK, with causes and solutions for each issue.
+- [iMessage Apps](https://help.branch.io/developer-hub/docs/imessage-apps.md): Bundle the Branch SDK into your iMessage extension app to support deep linking from iMessage on iOS.
+- [iOS SDK Version History](https://help.branch.io/developer-hub/docs/ios-version-history.md): Find the version history and release notes for the Branch iOS SDK in the open-source GitHub repository.
+- [iOS SDK Full Reference](https://help.branch.io/developer-hub/docs/ios-full-reference.md): Full reference for the Branch iOS SDK, covering every method, parameter, and return value available to your app.
+- [Web SDK](https://help.branch.io/developer-hub/docs/web-sdk.md)
+- [Web SDK Overview](https://help.branch.io/developer-hub/docs/web-sdk-overview.md): Unlock powerful deep linking and attribution with the Branch Web SDK. Optimize campaigns, access event data, and enhance user journeys seamlessly.
+- [Web SDK Basic Integration](https://help.branch.io/developer-hub/docs/web-basic-integration.md): Integrate the Branch Web SDK seamlessly with native JavaScript, validate your setup, and manage cookies effectively for optimal web functionality.
+- [Web SDK Advanced Features](https://help.branch.io/developer-hub/docs/web-advanced-features.md): Implement advanced Branch Web SDK features in JavaScript, with prerequisites and code for each method.
+- [Web SDK Testing](https://help.branch.io/developer-hub/docs/web-testing.md): Test your Branch Web SDK integration with these tools and resources to confirm links and attribution work.
+- [Web SDK Version History](https://help.branch.io/developer-hub/docs/web-version-history.md): Find the version history and release notes for the Branch Web SDK in the open-source GitHub repository.
+- [Web SDK Troubleshooting](https://help.branch.io/developer-hub/docs/web-troubleshooting.md): Fix common problems when integrating the Branch Web SDK, with causes and solutions for each issue.
+- [Web SDK Full Reference](https://help.branch.io/developer-hub/docs/web-full-reference.md): Full reference for the Branch Web SDK, covering every method, parameter, and return value available to your site.
+- [macOS SDK](https://help.branch.io/developer-hub/docs/mac-os-sdk.md)
+- [macOS SDK Overview](https://help.branch.io/developer-hub/docs/macos-sdk-overview.md): Learn what the Branch macOS SDK offers, including minimum Xcode and macOS versions and where to start integrating.
+- [macOS SDK Basic Integration](https://help.branch.io/developer-hub/docs/mac-os-basic-integration.md): Integrate the Branch macOS SDK into your app, with prerequisites and configuration steps before implementation.
+- [macOS SDK Advanced Features](https://help.branch.io/developer-hub/docs/mac-os-advanced-features.md): Implement advanced Branch macOS SDK features, including console logging for debugging your app.
+- [macOS SDK Testing](https://help.branch.io/developer-hub/docs/mac-os-testing.md): Test your Branch macOS SDK integration by creating a deep link and opening it from a test webpage.
+- [macOS SDK Version History](https://help.branch.io/developer-hub/docs/mac-os-version-history.md): Find the version history and release notes for the Branch macOS SDK in the open-source GitHub repository.
+- [Windows SDK](https://help.branch.io/developer-hub/docs/windows-cpp-sdk.md)
+- [Windows SDK Overview](https://help.branch.io/developer-hub/docs/windows-cpp-sdk-overview.md): Learn what the Branch Windows SDK offers, including minimum Visual Studio version and the demo app.
+- [Windows SDK Basic Integration](https://help.branch.io/developer-hub/docs/windows-cpp-basic-integration.md): Integrate the Branch Windows SDK into your C++ app. Note that UWP and .NET applications are not supported.
+- [Windows SDK Advanced Features](https://help.branch.io/developer-hub/docs/windows-cpp-advanced-features.md): Implement advanced Branch Windows SDK features, starting with creating a Branch instance and app information.
+- [Windows SDK Testing](https://help.branch.io/developer-hub/docs/windows-cpp-testing.md): Test your Branch Windows SDK integration by creating a deep link and opening it on a clean PC install.
+- [Windows SDK Version History](https://help.branch.io/developer-hub/docs/windows-cpp-version-history.md): Find the version history and release notes for the Branch Windows SDK in the open-source GitHub repository.
+- [tvOS SDK](https://help.branch.io/developer-hub/docs/tvos-sdk.md)
+- [tvOS SDK Overview](https://help.branch.io/developer-hub/docs/tvos-sdk-overview.md): Learn what the Branch tvOS SDK offers for Apple TV apps, including SDK size, speed, and where to start.
+- [tvOS SDK Basic Integration](https://help.branch.io/developer-hub/docs/tvos-basic-integration.md): Integrate the Branch tvOS SDK into your app for deep linking and attribution on tvOS.
+- [Roku SDK](https://help.branch.io/developer-hub/docs/roku-sdk.md)
+- [Roku SDK Overview](https://help.branch.io/developer-hub/docs/sdk-roku-overview.md): Learn what the Branch Roku SDK offers for OTT attribution, and where to start with integration and reference docs.
+- [Roku SDK Basic Integration](https://help.branch.io/developer-hub/docs/sdk-roku-basic-integration.md): Integrate the Branch SDK into your Roku app, with prerequisites including your Branch key and Dashboard setup.
+- [Roku SDK Testing](https://help.branch.io/developer-hub/docs/sdk-roku-testing.md): Test your Branch Roku integration with the sample test app, and switch between live and test mode.
+- [Roku SDK Full Reference](https://help.branch.io/developer-hub/docs/sdk-roku-full-reference.md): Full reference for the Branch Roku SDK, covering initSession and every other method available to your channel.
+- [Connected SDK](https://help.branch.io/developer-hub/docs/connected-sdk-index.md)
+- [Connected SDK Overview](https://help.branch.io/developer-hub/docs/connected-sdk.md): Learn what the Branch Connected SDK does for connected TV apps, including size, speed, and the demo app.
+- [Connected SDK Basic Integration](https://help.branch.io/developer-hub/docs/connected-basic-integration.md): Integrate the Branch Connected SDK into your connected TV app, with requirements for Tizen and WebOS.
+- [Connected SDK Advanced Features](https://help.branch.io/developer-hub/docs/connected-advanced-features.md): Implement advanced Branch Connected SDK features for connected TV apps, including init options and returned link data.
+- [Connected SDK Testing](https://help.branch.io/developer-hub/docs/connected-testing.md): Test your Branch Connected SDK integration using the sample apps provided for connected TV platforms.
+- [Connected SDK Troubleshooting](https://help.branch.io/developer-hub/docs/connected-troubleshooting.md): Fix common problems when integrating the Branch Connected SDK on Tizen and WebOS connected TV platforms.
+- [Connected SDK Full Reference](https://help.branch.io/developer-hub/docs/connected-full-reference.md): Full reference for the Branch Connected SDK, with every method and a sample app demonstrating what it can do.
+- [Plugins & SDK Wrappers](https://help.branch.io/developer-hub/docs/plugins-sdk-wrappers-index.md)
+- [Adobe Launch Android SDK](https://help.branch.io/developer-hub/docs/adobe-launch-android-sdk.md): Add Branch deep linking and attribution to your Adobe Marketing Cloud Android app with the Adobe Launch extension.
+- [Adobe Launch iOS SDK](https://help.branch.io/developer-hub/docs/adobe-launch-ios-sdk.md): Add Branch deep linking and attribution to your Adobe Marketing Cloud iOS app with the Adobe Launch extension.
+- [Capacitor SDK](https://help.branch.io/developer-hub/docs/capacitor.md): Install and configure the Branch SDK in a Capacitor app, including link routing rules and session initialization.
+- [Cordova, PhoneGap, and Ionic SDK](https://help.branch.io/developer-hub/docs/cordova-phonegap-ionic.md): Install and configure the Branch SDK in a Cordova, PhoneGap, or Ionic app, and initialize a Branch session.
+- [Flutter SDK](https://help.branch.io/developer-hub/docs/flutter-sdk-index.md)
+- [Flutter SDK Overview](https://help.branch.io/developer-hub/docs/flutter-sdk.md): Add deep linking and attribution to your cross-platform Flutter app with the Branch Flutter SDK and native Dart code.
+- [Flutter SDK Basic Integration](https://help.branch.io/developer-hub/docs/flutter-sdk-basic-integration.md): Integrate the Branch Flutter SDK into your app, with prerequisites, sample app, and supported Flutter versions.
+- [Flutter SDK Full Reference](https://help.branch.io/developer-hub/docs/flutter-sdk-full-reference.md): Full reference for the Branch Flutter SDK, covering every method, parameter, and return value available to your app.
+- [mParticle Android SDK](https://help.branch.io/developer-hub/docs/mparticle-android.md): Send mParticle events from your Android app to Branch, and see where to configure the reverse direction.
+- [mParticle iOS SDK](https://help.branch.io/developer-hub/docs/mparticle-ios.md): Send mParticle events from your iOS app to Branch, and see where to configure the reverse direction.
+- [React Native SDK](https://help.branch.io/developer-hub/docs/react-native-sdk-index.md)
+- [React Native SDK Overview](https://help.branch.io/developer-hub/docs/react-native.md): Add deep linking and attribution to your React Native app with the Branch React Native SDK.
+- [React Native SDK Basic Integration](https://help.branch.io/developer-hub/docs/react-native-basic-integration.md): Integrate the Branch React Native SDK, starting with iOS and Android Branch Dashboard configuration.
+- [React Native SDK Expo Integration](https://help.branch.io/developer-hub/docs/react-native-expo-integration.md): Integrate Branch into your Expo app with this guide, covering setup, deep linking, paid ads, and troubleshooting.
+- [React Native SDK Advanced Features](https://help.branch.io/developer-hub/docs/react-native-advanced-features.md): Implement advanced Branch React Native SDK features in JavaScript, and see how to reach native-only functionality.
+- [React Native SDK Full Reference](https://help.branch.io/developer-hub/docs/react-native-full-reference.md): Full reference for the Branch React Native SDK, covering every method available to your app.
+- [Unity SDK](https://help.branch.io/developer-hub/docs/unity.md): Integrate the Branch Unity SDK into your game, including how the SDK handles the iOS 14 IDFA permission modal.
+- [Xamarin & MAUI](https://help.branch.io/developer-hub/docs/xamarin-maui-sdk-index.md)
+- [Xamarin & MAUI SDK Overview](https://help.branch.io/developer-hub/docs/xamarin-maui-sdk-overview.md): Learn how Branch integrates with Xamarin and MAUI apps so you can add deep linking and attribution.
+- [Xamarin SDK Configuration](https://help.branch.io/developer-hub/docs/xamarin-configuration.md): Configure the Branch SDK in a Xamarin app, including how the SDK handles the iOS 14 IDFA permission modal.
+- [MAUI SDK Configuration](https://help.branch.io/developer-hub/docs/maui-configuration.md): Configure a .NET MAUI project for the Branch SDK, including target platforms and build settings.
+- [.NET SDK Feature Implementation](https://help.branch.io/developer-hub/docs/dotnet-feature-implementation.md): Implement Branch SDK features in Xamarin and MAUI apps, which share the same set of .NET methods.
+- [Branch APIs](https://help.branch.io/developer-hub/docs/apis.md)
+- [APIs Overview](https://help.branch.io/developer-hub/docs/apis-overview.md): Browse the Branch APIs for exporting data, creating Branch Links and QR codes, and querying analytics, with timing and limits.
+- [Methodology](https://help.branch.io/developer-hub/docs/methodology.md)
+- [Implement Attribution Methods](https://help.branch.io/developer-hub/docs/implement-attribution-methods.md): Compare the mechanisms Branch uses to pass data into your app and attribute sessions back to their source.
+- [Deduplicate Second Installs With APIs](https://help.branch.io/developer-hub/docs/deduplicate-second-installs-with-apis.md): Learn about iOS 14.5 changes mobile attribution and Branch's deduplication feature for accurate install tracking.
+- [Tracking](https://help.branch.io/developer-hub/docs/tracking.md)
+- [Retrieve Branch's Last Attributed Touch Data](https://help.branch.io/developer-hub/docs/retrieving-branchs-last-attributed-touch-data.md): Retrieve last attributed touch data with Branch's SDK, enabling insights into user interactions and campaign performance for better marketing strategies.
+- [Events](https://help.branch.io/developer-hub/docs/sdk-events.md)
+- [Create Branch Objects](https://help.branch.io/developer-hub/docs/create-branch-objects-and-events.md): Use the Branch Universal Object and event classes to track content and log events for deep linking and attribution.
+- [Branch Event Ontology](https://help.branch.io/developer-hub/docs/branch-event-ontology.md): Explore detailed lists of fields associated with various Branch Events.
+- [Event Ontology Field Reference](https://help.branch.io/developer-hub/docs/event-ontology-field-reference.md): Explore the Branch Event Ontology, detailing 263 fields, their types, and usage for seamless integration, exports, webhooks, and API interactions.
+- [Track Branch Events](https://help.branch.io/developer-hub/docs/track-branch-events.md): Track user actions in your app with Branch's event tracking. Learn about Standard and Custom Events for better analytics and attribution insights.
+- [Relay Subscriptions and In-App Purchases](https://help.branch.io/developer-hub/docs/relay-subscriptions-and-in-app-purchases.md): Log app store subscriptions and in-app purchases to Branch without populating transaction data yourself.
+- [Pre-Install Analytics](https://help.branch.io/developer-hub/docs/pre-install-analytics-index.md)
+- [Pre-Install Analytics Overview](https://help.branch.io/developer-hub/docs/pre-install-analytics.md): Measure preloaded app campaigns with Branch Pre-Install Analytics, so installs that skip the app store are attributed.
+- [Xiaomi Pre-Install](https://help.branch.io/developer-hub/docs/xiaomi-pre-install.md): Set up Xiaomi preload attribution with Branch so pre-installed app campaigns are measured correctly.
+- [Vivo Pre-Install](https://help.branch.io/developer-hub/docs/vivo-pre-install.md): Set up Vivo preload attribution with Branch so pre-installed app campaigns are measured correctly.
+- [Oppo Pre-Install](https://help.branch.io/developer-hub/docs/oppo-pre-install.md): Set up Oppo preload attribution with Branch so pre-installed app campaigns are measured correctly.
+- [Google Tag Manager](https://help.branch.io/developer-hub/docs/google-tag-manager-index.md)
+- [GTM Overview](https://help.branch.io/developer-hub/docs/google-tag-manager.md): Use Google Tag Manager to trigger Branch actions such as logging events and setting user identities.
+- [GTM Android Setup](https://help.branch.io/developer-hub/docs/gtm-android.md): Set up Google Tag Manager with the Branch Android SDK to trigger Branch events and identity calls from GTM.
+- [GTM iOS Setup](https://help.branch.io/developer-hub/docs/gtm-ios.md): Set up Google Tag Manager with the Branch iOS SDK to trigger Branch events and identity calls from GTM.
+- [GTM Web Setup](https://help.branch.io/developer-hub/docs/gtm-web.md): Set up Google Tag Manager with the Branch Web SDK to trigger Branch events and identity calls from GTM.
+- [Deep Linking](https://help.branch.io/developer-hub/docs/deep-linking.md)
+- [Deep Linking for Developers](https://help.branch.io/developer-hub/docs/technical-deep-linking-for-developers.md): Branch deep linking ensures accurate routing for users, whether they have the app or not, enhancing user experience with customized links and seamless integration.
+- [NativeLink™ Deferred Deep Linking](https://help.branch.io/developer-hub/docs/nativelink-deferred-deep-linking.md): Use Branch NativeLink for deferred deep linking on iOS, and understand the pasteboard prompt behavior on iOS 16.
+- [SAN API-Driven Deferred Deep Linking](https://help.branch.io/developer-hub/docs/san-deferred-deep-linking.md): Unlock SAN API-Driven DDL for deep linking with Google and Meta ads, enhancing app installs and reinstalls while navigating iOS privacy changes.
+- [In-App Routing](https://help.branch.io/developer-hub/docs/in-app-routing.md): Route users to the right screen after they open a Branch link, so deep links land on content instead of your home screen.
+- [Android App Links](https://help.branch.io/developer-hub/docs/android-app-links.md): Enable Android App Links with Branch for full attribution, deep linking, and coverage for cases where App Links fail.
+- [Apple Universal Links](https://help.branch.io/developer-hub/docs/ios-universal-links.md): Set up Apple Universal Links with Branch for reliable iOS deep linking, full attribution, and coverage for the cases Universal Links miss.
+- [Ads](https://help.branch.io/developer-hub/docs/ads-for-developers.md)
+- [Supported Ad Partners](https://help.branch.io/developer-hub/docs/supported-ad-partners.md): A list of all ad partners supported by Branch, including SANs and non-SANs.
+- [Postbacks](https://help.branch.io/developer-hub/docs/postbacks-1.md)
+- [Advanced Postback Configuration](https://help.branch.io/developer-hub/docs/advanced-postback-configuration.md): Make advanced edits to your ad network postback configuration in Branch, beyond the basic setup, for specific use cases.
+- [SKAN Postback API Spec](https://help.branch.io/developer-hub/docs/skan-postback-api-spec.md): Branch has enhanced its ad network integration with Apple SKAdNetwork postbacks, helping ensure secure validation and streamlined data aggregation for advertisers.
+- [Postback Macros and Functions](https://help.branch.io/developer-hub/docs/postback-macros-functions.md): Reference every macro and function Branch supports in postback URLs and webhooks, with the values each one returns.
+- [Conversion Value Mapping Partner API](https://help.branch.io/developer-hub/docs/conversion-value-mapping-partner-api.md): Understand how Branch calls the Apple SKAdNetwork methods for you and how conversion value mapping works with ad partners.
+- [Conversion Value Mapping Partner API Spec](https://help.branch.io/developer-hub/docs/conversion-value-mapping-partner-api-spec.md): API specification for SKAdNetwork partners fetching mutual customer conversion value mappings from Branch.
+- [SANs](https://help.branch.io/developer-hub/docs/sans.md)
+- [Self-Attributing Networks (SANs) Overview](https://help.branch.io/developer-hub/docs/self-attributing-networks-sans-overview.md): Learn how Branch integrates with Self-Attributing Networks (SANs) to provide accurate attribution and deep linking for your mobile ad campaigns on Google, Meta, Apple Ads, TikTok, and more. Find detailed support tables for campaign types and analytics.
+- [Apple Ads](https://help.branch.io/developer-hub/docs/apple-ads.md)
+- [Configure Apple Ads Token](https://help.branch.io/developer-hub/docs/configure-apple-ads-token.md): Generate and configure your Apple Ads token in Branch so Apple Ads campaign data flows into your account.
+- [Meta Ads](https://help.branch.io/developer-hub/docs/facebook.md)
+- [Meta Install Referrer](https://help.branch.io/developer-hub/docs/meta-install-referrer.md): Understand Meta Referrer measurement in Branch, covering both install referrer solutions Meta uses for Android ads.
+- [Meta AEM Technical Setup](https://help.branch.io/developer-hub/docs/meta-aem-technical-setup.md): Learn how Branch and Meta's Aggregated Event Measurement work together to help track app events on iOS 14.5+ while respecting user privacy and optimizing campaigns effectively.
+- [Pass Hashed Information for Facebook Advanced Matching](https://help.branch.io/developer-hub/docs/pass-hashed-information-for-facebook-advanced-matching.md): Pass hashed user information to Meta through Branch to improve Advanced Matching for attribution and analytics.
+- [Google Ads](https://help.branch.io/developer-hub/docs/google.md)
+- [Google ICM](https://help.branch.io/developer-hub/docs/google-icm.md): Branch supports Google's Integrated Conversion Measurement as an official Google App Attribution Partner.
+- [Snap](https://help.branch.io/developer-hub/docs/snap.md)
+- [Pass Hashed Data to Snap](https://help.branch.io/developer-hub/docs/pass-hashed-data-to-snap.md): Pass hashed user data to Snap Advanced Conversions through Branch to improve matching while respecting ad preferences.
+- [Non-SANs](https://help.branch.io/developer-hub/docs/non-sans.md)
+- [Custom Ad Partner Technical Guides](https://help.branch.io/developer-hub/docs/custom-ad-partner-technical-guides.md)
+- [Criteo Advanced Configuration](https://help.branch.io/developer-hub/docs/criteo-advanced.md): Configure advanced Criteo settings in Branch, beyond the basic Criteo integration steps.
+- [SingleTap Advanced Configuration](https://help.branch.io/developer-hub/docs/singletap-advanced.md): Configure advanced SingleTap by Digital Turbine settings in Branch, beyond the basic integration steps.
+- [Journeys](https://help.branch.io/developer-hub/docs/journeys.md)
+- [Journeys Assist Implementation](https://help.branch.io/developer-hub/docs/implement-journeys-assist.md): Optimize user flow with Journeys Assist, combining banners and interstitials for complete attribution across Branch-powered channels.
+- [Advanced Journeys Technical Configuration](https://help.branch.io/developer-hub/docs/advanced-journeys-technical-configuration.md): Maximize your Journeys campaign's conversion with iOS Safari banner compatibility and dynamic redirects for seamless user experience.
+- [Advanced Journeys UI (HTML & CSS)](https://help.branch.io/developer-hub/docs/advanced-journeys-ui-html-css.md): Customize Journeys creatives with the CSS editor, including custom fonts, background images, and animation.
+- [Journeys on Accelerated Mobile Pages (AMP)](https://help.branch.io/developer-hub/docs/journeys-via-amp.md): Run Branch Journeys banners on Accelerated Mobile Pages so AMP visitors still get a web-to-app call to action.
+- [Troubleshoot Journeys Banners](https://help.branch.io/developer-hub/docs/troubleshoot-journeys-banners.md): Fix common Journeys banner problems, starting with Web SDK errors that stop a Journey from running.
+- [Email](https://help.branch.io/developer-hub/docs/email.md)
+- [Supported Email Partners](https://help.branch.io/developer-hub/docs/email-partners.md): Browse every email service provider Branch supports for Branch Email, from Adobe Campaign to Salesforce and SendGrid.
+- [Email Integration for Developers](https://help.branch.io/developer-hub/docs/email-integration-for-developers.md): Integrate Branch Email with our guide on technical prerequisites, CNAME setup, and validation for effective email marketing campaigns.
+- [Custom Email Partner Technical Guides](https://help.branch.io/developer-hub/docs/email-service-providers.md)
+- [Amazon SES Configuration](https://help.branch.io/developer-hub/docs/aws-ses-configuration.md): Connect Amazon Simple Email Service to Branch Email so your email links deep link users into your app with attribution.
+- [CleverTap Configuration](https://help.branch.io/developer-hub/docs/clevertap-configuration.md): Set up CleverTap personalization links with Branch across supported email service providers, including SES and SendGrid.
+- [Customer.io Configuration](https://help.branch.io/developer-hub/docs/customerio-configuration.md): Connect Customer.io to Branch Email so your email, push, and SMS links deep link users into your app.
+- [Emarsys Configuration](https://help.branch.io/developer-hub/docs/emarsys-configuration.md): Connect Emarsys to Branch Email so your campaign links deep link users into your app with full attribution.
+- [Iterable Configuration](https://help.branch.io/developer-hub/docs/iterable-configuration.md): Connect Iterable to Branch Email so your cross-channel campaign links deep link users into your app.
+- [Sendgrid Configuration](https://help.branch.io/developer-hub/docs/sendgrid-configuration.md): Connect SendGrid to Branch Email so your email links deep link users into your app with full attribution.
+- [CheetahMail](https://help.branch.io/developer-hub/docs/cheetahmail.md)
+- [Cheetah Digital Cheetah Mail Configuration](https://help.branch.io/developer-hub/docs/cheetah-digital-cheetah-mail-configuration.md): Connect Cheetah Mail to Branch Email so your campaign links deep link users into your app with attribution.
+- [Cheetah Digital Marketing Suite Configuration](https://help.branch.io/developer-hub/docs/cheetah-digital-marketing-suite-configuration.md): Connect the Cheetah Digital Marketing Suite to Branch Email for deep linking and attribution on campaign links.
+- [Adobe](https://help.branch.io/developer-hub/docs/adobe.md)
+- [Adobe Journey Optimizer (AJO) Configuration](https://help.branch.io/developer-hub/docs/adobe-journey-optimizer.md): Integrate Branch Email with Adobe Journey Optimizer to enhance user experience by deep linking to app content or routing to mobile web seamlessly.
+- [Adobe Campaign Standard Configuration](https://help.branch.io/developer-hub/docs/adobe-campaign-standard-configuration.md): Connect Branch Email with Adobe Campaign Standard, including click tracking domain configuration and deep linking.
+- [Adobe Campaign Classic Configuration](https://help.branch.io/developer-hub/docs/adobe-campaign-classic-configuration.md): Connect Branch Email with Adobe Campaign Classic, including custom click tracking domain setup and deep linking.
+- [Oracle](https://help.branch.io/developer-hub/docs/oracle.md)
+- [Oracle Responsys Configuration](https://help.branch.io/developer-hub/docs/oracle-responsys-configuration.md): Connect Oracle Responsys to Branch Email so your orchestrated campaign links deep link users into your app.
+- [Oracle Eloqua Configuration](https://help.branch.io/developer-hub/docs/oracle-eloqua-configuration.md): Connect Oracle Eloqua to Branch Email so your demand generation campaign links deep link users into your app.
+- [Oracle Bronto Configuration](https://help.branch.io/developer-hub/docs/oracle-bronto-configuration.md): Connect Oracle Bronto to Branch Email so your retail campaign links deep link users into your app.
+- [Braze](https://help.branch.io/developer-hub/docs/braze.md)
+- [Braze | Sparkpost Configuration](https://help.branch.io/developer-hub/docs/braze-sparkpost-configuration.md): Connect Braze with SparkPost to Branch so your email links deep link users into your app with full attribution.
+- [Braze | Sendgrid Configuration](https://help.branch.io/developer-hub/docs/braze-sendgrid-configuration.md): Connect Braze with SendGrid to Branch so your email links deep link users into your app with full attribution.
+- [Braze | Mailjet Configuration](https://help.branch.io/developer-hub/docs/braze-mailjet-configuration.md): Connect Braze with Mailjet to Branch so your email links deep link users into your app with full attribution.
+- [Braze | Amazon SES Configuration](https://help.branch.io/developer-hub/docs/braze-amazon-ses-configuration.md): Connect Braze with Amazon SES to Branch so your email links deep link users into your app with full attribution.
+- [Salesforce Marketing Cloud Web Default](https://help.branch.io/developer-hub/docs/salesforce-marketing-cloud-web-default.md)
+- [SFMC Configuration](https://help.branch.io/developer-hub/docs/sfmc-overview.md): Connect Salesforce Marketing Cloud to Branch Email so your campaign links deep link users into your app.
+- [AMPscript for SFMC Configuration](https://help.branch.io/developer-hub/docs/ampscript-for-sfmc-configuration.md): Use AMPscript to deep link Salesforce Marketing Cloud email templates into your app with Branch Email.
+- [Custom SMS Partner Technical Guides](https://help.branch.io/developer-hub/docs/sms-provider-guides.md)
+- [Vibes Configuration](https://help.branch.io/developer-hub/docs/vibes-configuration.md): Set up Vibes SMS campaigns with Branch so your SMS links become multi-platform deep links.
+- [Data Feeds](https://help.branch.io/developer-hub/docs/advanced-data-feeds.md)
+- [Supported Data Integration Partners](https://help.branch.io/developer-hub/docs/supported-data-integration-partners.md): All the data integration partners supported by Branch.
+- [Data Integration Steps for Developers](https://help.branch.io/developer-hub/docs/data-integration-steps-for-developers.md): Send Branch data to your analytics and marketing tools with pre-formatted webhooks, and see the developer setup steps.
+- [Webhooks for Developers](https://help.branch.io/developer-hub/docs/data-integration-webhooks-for-developers.md): Export and analyze event data seamlessly with Branch's customizable webhook system, supporting advanced filtering and templating for optimal integration.
+- [Custom Export Provider Technical Guides](https://help.branch.io/developer-hub/docs/export-providers.md)
+- [mParticle (Export) Configuration](https://help.branch.io/developer-hub/docs/mparticle-export-configuration.md): Send Branch data to mParticle using the legacy integration. In new Branch, data integrations moved elsewhere.
+- [Segment (Export) Configuration](https://help.branch.io/developer-hub/docs/segment-export-configuration.md): Send Branch data to Segment using the legacy integration. In new Branch, data integrations are configured elsewhere.
+- [CleverTap (Export) Configuration](https://help.branch.io/developer-hub/docs/clevertap-data-configuration.md): Send Branch data to CleverTap using the legacy integration. In new Branch, data integrations are configured elsewhere.
+- [Adobe Analytics Configuration](https://help.branch.io/developer-hub/docs/adobe-analytics-configuration.md): Send Branch event data to Adobe Analytics with the Data Integration, and see which Branch events are forwarded.
+- [Airship Configuration](https://help.branch.io/developer-hub/docs/airship-configuration.md): Send Branch event data to Airship using the legacy data integration. In new Branch, data integrations are configured elsewhere.
+- [Movable Ink Configuration](https://help.branch.io/developer-hub/docs/movable-ink-configuration.md): Send Branch data to Movable Ink using the legacy integration. In new Branch, data integrations moved elsewhere.
+- [MoEngage Configuration](https://help.branch.io/developer-hub/docs/moengage-configuration.md): MoEngage integrates with Branch SDK to deliver AI-driven insights, enabling marketers to create personalized omnichannel experiences for users.
+- [Mixpanel Configuration](https://help.branch.io/developer-hub/docs/mixpanel-configuration.md): Send Branch event data to Mixpanel to measure Branch as an acquisition pathway in your Mixpanel reports.
+- [Leanplum Configuration](https://help.branch.io/developer-hub/docs/leanplum-configuration.md): Send Branch data to Leanplum using the legacy integration. In new Branch, data integrations are configured elsewhere.
+- [Firebase Configuration](https://help.branch.io/developer-hub/docs/firebase-configuration.md): Send Branch event data to Google Analytics and Firebase to measure Branch as an acquisition pathway.
+- [Batch Configuration](https://help.branch.io/developer-hub/docs/batch-configuration.md): Send Branch event data to Batch using the legacy data integration. In new Branch, data integrations are configured elsewhere.
+- [Braze Configuration](https://help.branch.io/developer-hub/docs/braze-configuration.md): Send Branch event data to Braze using the legacy data integration. In new Branch, data integrations are configured elsewhere.
+- [Google Analytics 4 Configuration](https://help.branch.io/developer-hub/docs/google-analytics-4-configuration.md): Send Branch data to Google Analytics 4 using the legacy integration. In new Branch, data integrations moved elsewhere.
+- [Google Analytics Configuration](https://help.branch.io/developer-hub/docs/google-analytics-configuration.md): Send Branch data to Google Analytics using the legacy integration. In new Branch, data integrations moved elsewhere.
+- [Custom Import Provider Technical Guides](https://help.branch.io/developer-hub/docs/import-providers.md)
+- [mParticle (Import) Configuration](https://help.branch.io/developer-hub/docs/mparticle-import-configuration.md): Import mParticle events into Branch using the legacy integration. In new Branch, this moved elsewhere.
+- [Segment (Import) Configuration](https://help.branch.io/developer-hub/docs/segment-import-configuration.md): Import Segment events into Branch using the legacy integration. In new Branch, this moved elsewhere.
+- [Tealium Configuration](https://help.branch.io/developer-hub/docs/tealium-import-configuration.md): Import Tealium events into Branch to attribute downstream conversions across web and app to Branch link clicks.
+- [Additional Use Cases](https://help.branch.io/developer-hub/docs/additional-use-cases.md)
+- [Push Notification Implementation](https://help.branch.io/developer-hub/docs/push-notifications.md): Deep link users from push notifications into your app with Branch, so re-engagement lands on the right content.
+- [SEO + AIO Implementation](https://help.branch.io/developer-hub/docs/seo-aio-implementation.md): Implement SEO and AIO App Attribution to track organic traffic from search engines and AI chat agents into your app.
+- [Advanced Deepview Configurations](https://help.branch.io/developer-hub/docs/advanced-deepview-configurations.md): Enable or disable Deepviews per link and customize individual Deepview templates using link control parameters.
+- [Data Privacy](https://help.branch.io/developer-hub/docs/data-privacy-index.md)
+- [Advanced Compliance](https://help.branch.io/developer-hub/docs/advanced-compliance.md): Learn how to enable Branch's Advanced Compliance for healthcare and regulated industries. Follow setup steps for SDK configuration, link domains, domain salt configuration, and SSO.
+- [Implement Content Security Protocol (CSP)](https://help.branch.io/developer-hub/docs/implement-content-security-protocol-csp.md): Configure Content Security Policy for Branch so deep linking and Journeys work alongside your security headers.
+- [Remove Tracking](https://help.branch.io/developer-hub/docs/sdk-privacy-controls.md): Use the Branch SDKs to honor a user request not to be tracked, and see how that flag affects core functionality.
+- [Consumer Protection Preferences](https://help.branch.io/developer-hub/docs/consumer-protection-preferences.md): Set granular privacy levels per user with Branch Consumer Protection Preferences instead of turning tracking on or off.
+- [Restricting End User Data Processing](https://help.branch.io/developer-hub/docs/honoring-opt-out-of-processing-requests.md): Honor end-user opt-out requests in Branch to comply with data protection laws that let users restrict processing.
+- [Filter Ad Network Data](https://help.branch.io/developer-hub/docs/filtering-ad-network-data.md): Use Ad Network Data Filtering in Branch to control which event data flows to each of your ad partners.
+- [Apple](https://help.branch.io/developer-hub/docs/apple.md)
+- [iOS 17 Privacy Overview](https://help.branch.io/developer-hub/docs/ios-17-privacy-overview.md): Understand iOS 17 privacy requirements, including privacy manifests and privacy reports, and how Branch complies.
+- [Advanced SKAdNetwork SDK Configuration](https://help.branch.io/developer-hub/docs/advanced-skadnetwork-sdk-configuration.md): Implement custom SKAN functionality with our guide for Branch SDK integration, troubleshooting, and defining conversion values for optimal ad performance.
+- [Answering the App Store Connect Privacy Questions](https://help.branch.io/developer-hub/docs/answering-the-app-store-connect-privacy-questions.md): Answer Apple's App Store Connect privacy questionnaire accurately for the data Branch collects through its SDK.
+- [Google](https://help.branch.io/developer-hub/docs/google-privacy.md)
+- [Answering the Google Play Store Privacy Questions](https://help.branch.io/developer-hub/docs/answering-the-google-play-store-privacy-questions.md): Answer Google Play's Data Safety section accurately for the data Branch collects through its SDK.

@@ -1,0 +1,1 @@
+{"resource":"https://preferences.branch.io","authorization_servers":["https://preferences.branch.io"],"scopes_supported":["mcp:tools:read","mcp:tools:execute","openid","email"],"bearer_methods_supported":["header"]}

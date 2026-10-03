@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@vocab": "https://branch.io/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "branch": "https://branch.io/schema#",
+    "PutV1AppBranchkeyRequest": "branch:PutV1AppBranchkeyRequest",
+    "branch_secret": {
+      "@id": "branch:branch_secret",
+      "@type": "xsd:string"
+    },
+    "app_name": {
+      "@id": "branch:app_name",
+      "@type": "xsd:string"
+    },
+    "dev_name": {
+      "@id": "branch:dev_name",
+      "@type": "xsd:string"
+    },
+    "dev_email": {
+      "@id": "branch:dev_email",
+      "@type": "xsd:string"
+    },
+    "android_url": {
+      "@id": "branch:android_url",
+      "@type": "xsd:string"
+    },
+    "android_uri_scheme": {
+      "@id": "branch:android_uri_scheme",
+      "@type": "xsd:string"
+    },
+    "ios_url": {
+      "@id": "branch:ios_url",
+      "@type": "xsd:string"
+    },
+    "ios_uri_scheme": {
+      "@id": "branch:ios_uri_scheme",
+      "@type": "xsd:string"
+    },
+    "ios_store_country": {
+      "@id": "branch:ios_store_country",
+      "@type": "xsd:string"
+    },
+    "web_url": {
+      "@id": "branch:web_url",
+      "@type": "xsd:string"
+    },
+    "text_message": {
+      "@id": "branch:text_message",
+      "@type": "xsd:string"
+    },
+    "og_app_id": {
+      "@id": "branch:og_app_id",
+      "@type": "xsd:string"
+    },
+    "og_title": {
+      "@id": "branch:og_title",
+      "@type": "xsd:string"
+    },
+    "og_description": {
+      "@id": "branch:og_description",
+      "@type": "xsd:string"
+    },
+    "og_image_url": {
+      "@id": "branch:og_image_url",
+      "@type": "xsd:string"
+    },
+    "PutV1AppBranchkeyResponse": "branch:PutV1AppBranchkeyResponse",
+    "branch_key": {
+      "@id": "branch:branch_key",
+      "@type": "xsd:string"
+    },
+    "creation_date": {
+      "@id": "branch:creation_date",
+      "@type": "xsd:string"
+    },
+    "dev_phone_number": {
+      "@id": "branch:dev_phone_number",
+      "@type": "xsd:string"
+    },
+    "short_url_domain": {
+      "@id": "branch:short_url_domain",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Branch API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Branch's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-03) from openapi/_ae-authored/branch-messenger-openapi-generated.yml.",
+  "dcterms:created": "2026-10-03",
+  "dcterms:source": [
+    "openapi/_ae-authored/branch-messenger-openapi-generated.yml"
+  ]
+}

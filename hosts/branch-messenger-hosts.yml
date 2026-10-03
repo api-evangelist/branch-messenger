@@ -1,0 +1,209 @@
+generated: '2026-10-03'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 16
+  own: 1
+  other_domain: 15
+  platform: 0
+  roles:
+  - api
+  - docs
+  - legal
+  - marketing
+  - other
+  - portal
+  - status
+  - support
+  - website
+hosts:
+- host: api.branch.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: branch.io
+  role: api
+  relation: other-domain
+- host: api2.branch.io
+  found_by:
+  - apis[]
+  types: []
+  serves:
+  - api
+  registrable_domain: branch.io
+  role: other
+  relation: other-domain
+- host: app.branch.io
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: branch.io
+  role: other
+  relation: other-domain
+- host: branch.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Security
+  - Pricing
+  serves: []
+  registrable_domain: branch.io
+  role: marketing
+  relation: other-domain
+- host: branchapp.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: branchapp.com
+  role: website
+  relation: own
+- host: developer.branch.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Documentation
+  serves:
+  - docs
+  - cdn
+  vendor: cloudfront
+  registrable_domain: branch.io
+  role: docs
+  relation: other-domain
+- host: developers.branch.io
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: branch.io
+  role: portal
+  relation: other-domain
+- host: docs.branch.io
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  types: []
+  serves: []
+  title: Branch Help Center | Product Documentation, Developer Documentation
+  status: 200
+  registrable_domain: branch.io
+  role: docs
+  relation: other-domain
+- host: help.branch.io
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types:
+  - Support
+  - APIReference
+  - GettingStarted
+  serves:
+  - docs
+  registrable_domain: branch.io
+  role: docs
+  relation: other-domain
+- host: legal.branch.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: branch.io
+  role: legal
+  relation: other-domain
+- host: preferences.branch.io
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: branch.io
+  role: other
+  relation: other-domain
+- host: status.branch.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: branch.io
+  role: status
+  relation: other-domain
+- host: support.branch.io
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: branch.io
+  role: support
+  relation: other-domain
+- host: trust.branch.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  types:
+  - Compliance
+  serves: []
+  registrable_domain: branch.io
+  role: other
+  relation: other-domain
+- host: university.branch.io
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: branch.io
+  role: other
+  relation: other-domain
+- host: www.branch.io
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - Leadership
+  - Blog
+  serves: []
+  registrable_domain: branch.io
+  role: marketing
+  relation: other-domain

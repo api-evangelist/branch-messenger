@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/branch-messenger/main/json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json",
+  "title": "PutV1AppBranchkeyResponse",
+  "x-generated": "2026-10-03",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/branch-messenger-openapi-generated.yml#/components/schemas/PutV1AppBranchkeyResponse",
+  "type": "object",
+  "properties": {
+    "branch_key": {
+      "type": "string",
+      "description": "the app key"
+    },
+    "branch_secret": {
+      "type": "string",
+      "description": "the app secret"
+    },
+    "creation_date": {
+      "type": "string",
+      "description": "date app was created"
+    },
+    "app_name": {
+      "type": "string",
+      "description": "name of the app"
+    },
+    "dev_name": {
+      "type": "string",
+      "description": "main contact name"
+    },
+    "dev_email": {
+      "type": "string",
+      "description": "main contact email"
+    },
+    "dev_phone_number": {
+      "type": "string",
+      "description": "main contact phone"
+    },
+    "android_url": {
+      "type": "string",
+      "description": "url of Android store, or namespace (com.android.myapp)"
+    },
+    "android_uri_scheme": {
+      "type": "string",
+      "description": "the Android URI scheme"
+    },
+    "ios_url": {
+      "type": "string",
+      "description": "url of iOS store, or app id (id512451233)"
+    },
+    "ios_uri_scheme": {
+      "type": "string",
+      "description": "the iOS URI scheme"
+    },
+    "ios_store_country": {
+      "type": "string",
+      "description": "the country code of the app, default to US"
+    },
+    "web_url": {
+      "type": "string",
+      "description": "backup website if URLs are null"
+    },
+    "short_url_domain": {
+      "type": "string",
+      "description": "white labeled domain for short links"
+    },
+    "text_message": {
+      "type": "string",
+      "description": "text message to use, {{ link }} will be replaced with short link"
+    },
+    "og_app_id": {
+      "type": "string",
+      "description": "optional default Open Graph (OG) app id"
+    },
+    "og_title": {
+      "type": "string",
+      "description": "optional default OG title"
+    },
+    "og_image_url": {
+      "type": "string",
+      "description": "optional default OG image URL"
+    },
+    "og_description": {
+      "type": "string",
+      "description": "optional default OG description"
+    }
+  }
+}

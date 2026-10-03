@@ -1,0 +1,24 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.branch.io/account-hub/docs/postback-webhook-ip-address-allowlist-expands.md
+sources:
+- https://help.branch.io/account-hub/docs/postback-webhook-ip-address-allowlist-expands.md
+- https://help.branch.io/account-hub/docs/additional-ip-addresses-for-webhooks.md
+- https://help.branch.io/marketer-hub/docs/webhooks.md
+- https://help.branch.io/developer-hub/docs/data-integration-webhooks-for-developers.md
+description: Branch webhooks fire for specific Branch events when they occur.
+events:
+- event: install
+  description: Triggered the first time a user ever launches your app on their device.
+- event: reinstall
+  description: Triggered if a user deletes and reinstalls your app on their device.
+- event: open
+  description: Triggered whenever the app is opened (and the open is neither an install or reinstall).
+- event: web session start
+  description: Triggered when the user views a webpage using the Branch Web SDK.
+- event: click
+  description: Triggered whenever a Branch Link is clicked on any platform.
+delivery:
+  retries: We will retry if it's a timeout (2‑second waiting period). Errors returned by the recipient (e.g., 400/500) are not retried.
+docs: https://help.branch.io/account-hub/docs/postback-webhook-ip-address-allowlist-expands.md

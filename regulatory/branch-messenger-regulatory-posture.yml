@@ -1,0 +1,41 @@
+generated: '2026-10-03'
+signals: []
+method: searched
+source: https://trust.branch.io/
+posture:
+  subprocessors:
+    - evidence:
+        source: https://trust.branch.io/
+        http_status: 200
+        fetched: true
+        quote: "Subprocessors list available"
+        url: https://trust.branch.io/
+        section: "Quick Summary"
+        note: "Indicates Branch publishes a list of subprocessors as required."
+  data_retention:
+    - evidence:
+        source: https://trust.branch.io/
+        http_status: 200
+        fetched: true
+        quote: "Deletes customer data on request"
+        url: https://trust.branch.io/
+        section: "Quick Summary"
+        note: "Branch commits to delete customer data upon request."
+  privacy_policy:
+    - evidence:
+        source: https://trust.branch.io/
+        http_status: 200
+        fetched: true
+        quote: "Has a privacy policy"
+        url: https://trust.branch.io/
+        section: "Quick Summary"
+        note: "Presence of a privacy policy is declared."
+  ai_transparency:
+    - evidence:
+        source: https://trust.branch.io/
+        http_status: 200
+        fetched: true
+        quote: "Artificial Intelligence 10 answers"
+        url: https://trust.branch.io/
+        section: "Quick Summary"
+        note: "Trust center mentions AI usage and provides answers."

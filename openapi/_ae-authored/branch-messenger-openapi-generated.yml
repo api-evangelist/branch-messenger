@@ -1,0 +1,303 @@
+openapi: 3.1.0
+info:
+  title: Branch API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 5 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Branch has published no machine-readable contract that the pipeline
+    could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 9
+    documentation: -3
+    pages-with-code: 5
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.branch.io/apidocs/app-api.md
+  - https://help.branch.io/apidocs/query-api.md
+  - https://help.branch.io/apidocs/cohort-api.md
+  - https://help.branch.io/apidocs/events-api.md
+  - https://help.branch.io/apidocs/qr-code-api.md
+servers:
+- url: https://api2.branch.io
+paths:
+  /img1.jpg:
+    post:
+      operationId: post_img1_jpg
+      tags:
+      - Img1
+      summary: POST /img1.jpg
+      x-source: https://help.branch.io/apidocs/events-api.md
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -vvv -d '{\n                    \"name\": \"PURCHASE\",\n                    \"customer_event_alias\": \"my custom\
+          \ alias\",\n                    \"user_data\": {\n                    \"advertising_ids\": {\n                    \"oaid\": \"00aa00a0-0000-0a00-a000-aaa0000a0aaa\"\
+          \n                    },\n                    \"os\": \"Android\",\n                    \"os_version\": 25,\n                    \"\
+          anon_id\": \"fba"
+  /v1/app/{branchKey}:
+    put:
+      operationId: put_v1_app_branchKey
+      tags:
+      - App
+      summary: Update Branch App Config
+      description: Updates the configuration of a Branch app.
+      x-source: https://help.branch.io/apidocs/app-api.md
+      parameters:
+      - name: branchKey
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PutV1AppBranchkeyRequest'
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PutV1AppBranchkeyResponse'
+      x-evidence:
+        kind: documentation
+  /v1/query/analytics:
+    post:
+      operationId: post_v1_query_analytics
+      tags:
+      - Query
+      summary: POST /v1/query/analytics
+      x-source: https://help.branch.io/apidocs/query-api.md
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -X POST -H \"Content-Type: application/json\" -d '{\n                    \"branch_key\":\"<YOUR_BRANCH_KEY>\",\n\
+          \                    \"branch_secret\":\"<YOUR_BRANCH_SECRET>\",\n                    \"start_date\": \"2022-03-01\",\n            \
+          \        \"end_date\": \"2022-03-07\",\n                    \"data_source\": \"eo_install\",\n                    \"dimensions\": [\n\
+          \                    \"attributed\"\n              "
+  /v2/analytics/{jobid}:
+    get:
+      operationId: get_v2_analytics_jobid
+      tags:
+      - Analytics
+      summary: GET /v2/analytics/{jobId}
+      x-source: https://help.branch.io/apidocs/cohort-api.md
+      parameters:
+      - name: jobid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: 'curl
+
+          curl ''https://api2.branch.io/v2/analytics/<job_id>?organization_id=<organization_id>'' -H ''Access-Token:<branch_access_token>''
+
+          ```'
+  /v2/event/{eventid}:
+    post:
+      operationId: post_v2_event_eventid
+      tags:
+      - Event
+      summary: POST /v2/event/custom
+      x-source: https://help.branch.io/apidocs/events-api.md
+      parameters:
+      - name: eventid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -vvv -d '{\n                    \"name\": \"picture swiped\",\n                    \"user_data\": {\n            \
+          \        \"advertising_ids\": {\n                    \"oaid\": \"02ab41d3-7886-4f29-a606-fba4372e9fdc\"\n                    },\n  \
+          \                  \"os\": \"Android\",\n                    \"os_version\": 25,\n                    \"anon_id\": \"fbanon_abc123def456\"\
+          ,\n                    \"environment\": \"FU"
+        collapsed_from: 2 example path(s) differing only at eventId
+  /v2/{v2id}:
+    post:
+      operationId: post_v2_v2id
+      tags:
+      - Api
+      summary: POST /v2/analytics
+      x-source: https://help.branch.io/apidocs/cohort-api.md
+      parameters:
+      - name: v2id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: app_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: format
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -X POST 'https://api2.branch.io/v2/analytics?app_id=xxxxxxxxxxx&limit=50000&format=json' -H 'Access-Token:api_app_xxxxxxxxxxxxxxxxxxxxxxxxx'\
+          \ -H 'content-type:application/json' -d '{\n                    \"start_date\": \"2024-05-30\",\n                    \"end_date\": \"\
+          2024-05-31\",\n                    \"dimensions\": [\"install_activity_touch_data_tilde_campaign\"],\n                    \"data_source"
+        collapsed_from: 2 example path(s) differing only at v2Id
+components:
+  schemas:
+    PutV1AppBranchkeyRequest:
+      type: object
+      properties:
+        branch_secret:
+          type: string
+          description: The Branch secret if the originating app; from your Branch Settings Dashboard
+        app_name:
+          type: string
+          description: The name of the app (max 255 characters).
+        dev_name:
+          type: string
+          description: The main contact developer name (max 255 characters).
+        dev_email:
+          type: string
+          description: The main contact developer email (max 255 characters).
+        android_url:
+          type: string
+          description: The url of the Android store, or package name (com.android.myapp). Note that to set a fallback URL for Android instead,
+            you must also set `android_app` to `2`.
+        android_uri_scheme:
+          type: string
+          description: The Android URI scheme.
+        ios_url:
+          type: string
+          description: The url of iOS store, or app id (id512451233)
+        ios_uri_scheme:
+          type: string
+          description: The iOS URI scheme.
+        ios_store_country:
+          type: string
+          description: The country code of the app, default to US (max 255 characters).
+        web_url:
+          type: string
+          description: Backup website if URLs are null.
+        text_message:
+          type: string
+          description: The text message to use for text-me feature, {{ link }} will be replaced with short link (max 255 characters).
+        og_app_id:
+          type: string
+          description: Default Open Graph (OG) app id (max 255 characters).
+        og_title:
+          type: string
+          description: Default OG title to be used with links (max 255 characters).
+        og_description:
+          type: string
+          description: Default OG description to be used with links (max 255 characters).
+        og_image_url:
+          type: string
+          description: Default OG image URL to be used with links (max 255 characters).
+      required:
+      - branch_secret
+      - dev_email
+    PutV1AppBranchkeyResponse:
+      type: object
+      properties:
+        branch_key:
+          type: string
+          description: the app key
+        branch_secret:
+          type: string
+          description: the app secret
+        creation_date:
+          type: string
+          description: date app was created
+        app_name:
+          type: string
+          description: name of the app
+        dev_name:
+          type: string
+          description: main contact name
+        dev_email:
+          type: string
+          description: main contact email
+        dev_phone_number:
+          type: string
+          description: main contact phone
+        android_url:
+          type: string
+          description: url of Android store, or namespace (com.android.myapp)
+        android_uri_scheme:
+          type: string
+          description: the Android URI scheme
+        ios_url:
+          type: string
+          description: url of iOS store, or app id (id512451233)
+        ios_uri_scheme:
+          type: string
+          description: the iOS URI scheme
+        ios_store_country:
+          type: string
+          description: the country code of the app, default to US
+        web_url:
+          type: string
+          description: backup website if URLs are null
+        short_url_domain:
+          type: string
+          description: white labeled domain for short links
+        text_message:
+          type: string
+          description: text message to use, {{ link }} will be replaced with short link
+        og_app_id:
+          type: string
+          description: optional default Open Graph (OG) app id
+        og_title:
+          type: string
+          description: optional default OG title
+        og_image_url:
+          type: string
+          description: optional default OG image URL
+        og_description:
+          type: string
+          description: optional default OG description
+tags:
+- name: Analytics
+- name: Api
+- name: App
+- name: Event
+- name: Img1
+- name: Query
