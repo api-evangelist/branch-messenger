@@ -1,0 +1,25 @@
+{
+  "provider": "branch-messenger",
+  "sources": [
+    "_ae-authored/branch-messenger-openapi-generated.yml"
+  ],
+  "outputs": [
+    "branch-messenger-analytics-api-openapi.yml",
+    "branch-messenger-app-api-openapi.yml",
+    "branch-messenger-branch-api-api-openapi.yml",
+    "branch-messenger-event-api-openapi.yml",
+    "branch-messenger-img1-api-openapi.yml",
+    "branch-messenger-query-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "branch-messenger-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "branch-messenger-openapi-generated.yml: tagged paths POST /v2/{v2id} -> Branch API",
+    "branch-messenger-openapi-generated.yml: declared missing tag: Branch API",
+    "apis.yml register: written (+6 apis, 7 total)"
+  ],
+  "skipped": []
+}

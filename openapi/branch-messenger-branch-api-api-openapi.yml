@@ -1,0 +1,63 @@
+openapi: 3.2.0
+info:
+  title: Branch API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Branch has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 9
+    documentation: -3
+    pages-with-code: 5
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.branch.io/apidocs/app-api.md
+  - https://help.branch.io/apidocs/query-api.md
+  - https://help.branch.io/apidocs/cohort-api.md
+  - https://help.branch.io/apidocs/events-api.md
+  - https://help.branch.io/apidocs/qr-code-api.md
+servers:
+- url: https://api2.branch.io
+tags:
+- name: Branch API
+paths:
+  /v2/{v2id}:
+    post:
+      operationId: post_v2_v2id
+      tags:
+      - Branch API
+      summary: POST /v2/analytics
+      x-source: https://help.branch.io/apidocs/cohort-api.md
+      parameters:
+      - name: v2id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: app_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: format
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -X POST 'https://api2.branch.io/v2/analytics?app_id=xxxxxxxxxxx&limit=50000&format=json' -H 'Access-Token:api_app_xxxxxxxxxxxxxxxxxxxxxxxxx' -H 'content-type:application/json' -d '{\n                    \"start_date\": \"2024-05-30\",\n                    \"end_date\": \"2024-05-31\",\n                    \"dimensions\": [\"install_activity_touch_data_tilde_campaign\"],\n                    \"data_source"
+        collapsed_from: 2 example path(s) differing only at v2Id

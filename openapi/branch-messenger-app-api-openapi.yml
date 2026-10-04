@@ -1,0 +1,169 @@
+openapi: 3.2.0
+info:
+  title: Branch App API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Branch has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 9
+    documentation: -3
+    pages-with-code: 5
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.branch.io/apidocs/app-api.md
+  - https://help.branch.io/apidocs/query-api.md
+  - https://help.branch.io/apidocs/cohort-api.md
+  - https://help.branch.io/apidocs/events-api.md
+  - https://help.branch.io/apidocs/qr-code-api.md
+servers:
+- url: https://api2.branch.io
+tags:
+- name: App
+paths:
+  /v1/app/{branchKey}:
+    put:
+      operationId: put_v1_app_branchKey
+      tags:
+      - App
+      summary: Update Branch App Config
+      description: Updates the configuration of a Branch app.
+      x-source: https://help.branch.io/apidocs/app-api.md
+      parameters:
+      - name: branchKey
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PutV1AppBranchkeyRequest'
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PutV1AppBranchkeyResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PutV1AppBranchkeyRequest:
+      type: object
+      properties:
+        branch_secret:
+          type: string
+          description: The Branch secret if the originating app; from your Branch Settings Dashboard
+        app_name:
+          type: string
+          description: The name of the app (max 255 characters).
+        dev_name:
+          type: string
+          description: The main contact developer name (max 255 characters).
+        dev_email:
+          type: string
+          description: The main contact developer email (max 255 characters).
+        android_url:
+          type: string
+          description: The url of the Android store, or package name (com.android.myapp). Note that to set a fallback URL for Android instead, you must also set `android_app` to `2`.
+        android_uri_scheme:
+          type: string
+          description: The Android URI scheme.
+        ios_url:
+          type: string
+          description: The url of iOS store, or app id (id512451233)
+        ios_uri_scheme:
+          type: string
+          description: The iOS URI scheme.
+        ios_store_country:
+          type: string
+          description: The country code of the app, default to US (max 255 characters).
+        web_url:
+          type: string
+          description: Backup website if URLs are null.
+        text_message:
+          type: string
+          description: The text message to use for text-me feature, {{ link }} will be replaced with short link (max 255 characters).
+        og_app_id:
+          type: string
+          description: Default Open Graph (OG) app id (max 255 characters).
+        og_title:
+          type: string
+          description: Default OG title to be used with links (max 255 characters).
+        og_description:
+          type: string
+          description: Default OG description to be used with links (max 255 characters).
+        og_image_url:
+          type: string
+          description: Default OG image URL to be used with links (max 255 characters).
+      required:
+      - branch_secret
+      - dev_email
+    PutV1AppBranchkeyResponse:
+      type: object
+      properties:
+        branch_key:
+          type: string
+          description: the app key
+        branch_secret:
+          type: string
+          description: the app secret
+        creation_date:
+          type: string
+          description: date app was created
+        app_name:
+          type: string
+          description: name of the app
+        dev_name:
+          type: string
+          description: main contact name
+        dev_email:
+          type: string
+          description: main contact email
+        dev_phone_number:
+          type: string
+          description: main contact phone
+        android_url:
+          type: string
+          description: url of Android store, or namespace (com.android.myapp)
+        android_uri_scheme:
+          type: string
+          description: the Android URI scheme
+        ios_url:
+          type: string
+          description: url of iOS store, or app id (id512451233)
+        ios_uri_scheme:
+          type: string
+          description: the iOS URI scheme
+        ios_store_country:
+          type: string
+          description: the country code of the app, default to US
+        web_url:
+          type: string
+          description: backup website if URLs are null
+        short_url_domain:
+          type: string
+          description: white labeled domain for short links
+        text_message:
+          type: string
+          description: text message to use, {{ link }} will be replaced with short link
+        og_app_id:
+          type: string
+          description: optional default Open Graph (OG) app id
+        og_title:
+          type: string
+          description: optional default OG title
+        og_image_url:
+          type: string
+          description: optional default OG image URL
+        og_description:
+          type: string
+          description: optional default OG description

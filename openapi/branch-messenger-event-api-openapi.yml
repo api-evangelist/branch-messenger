@@ -1,0 +1,48 @@
+openapi: 3.2.0
+info:
+  title: Branch Event API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Branch has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 9
+    documentation: -3
+    pages-with-code: 5
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.branch.io/apidocs/app-api.md
+  - https://help.branch.io/apidocs/query-api.md
+  - https://help.branch.io/apidocs/cohort-api.md
+  - https://help.branch.io/apidocs/events-api.md
+  - https://help.branch.io/apidocs/qr-code-api.md
+servers:
+- url: https://api2.branch.io
+tags:
+- name: Event
+paths:
+  /v2/event/{eventid}:
+    post:
+      operationId: post_v2_event_eventid
+      tags:
+      - Event
+      summary: POST /v2/event/custom
+      x-source: https://help.branch.io/apidocs/events-api.md
+      parameters:
+      - name: eventid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl\ncurl -vvv -d '{\n                    \"name\": \"picture swiped\",\n                    \"user_data\": {\n                    \"advertising_ids\": {\n                    \"oaid\": \"02ab41d3-7886-4f29-a606-fba4372e9fdc\"\n                    },\n                    \"os\": \"Android\",\n                    \"os_version\": 25,\n                    \"anon_id\": \"fbanon_abc123def456\",\n                    \"environment\": \"FU"
+        collapsed_from: 2 example path(s) differing only at eventId

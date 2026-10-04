@@ -99,21 +99,92 @@ common:
 
 apis:
 - name: Branch API
-  description: Branch API provides deep linking, attribution, and analytics endpoints as documented in the public markdown API reference.
+  description: >-
+    Branch API provides deep linking, attribution, and analytics endpoints as documented in the public
+    markdown API reference.
   humanURL: https://help.branch.io/apidocs
   baseURL: null
   aid: branch-messenger:branch-api
-- aid: branch-messenger:branch-messenger-api
-  name: Branch API
-  description: 'Branch API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
-
-    the provider''s own document.'
-  humanURL: https://help.branch.io/apidocs/app-api.md
+- aid: branch-messenger:branch-messenger-analytics-api
+  name: Branch Analytics API
+  description: The Analytics API from Branch — 1 operation(s) for analytics.
+  humanURL: https://help.branch.io/apidocs
   baseURL: https://api2.branch.io
+  tags:
+  - Analytics
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/branch-messenger-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/branch-messenger-analytics-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+- aid: branch-messenger:branch-messenger-app-api
+  name: Branch App API
+  description: The App API from Branch — 1 operation(s) for app.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: https://api2.branch.io
+  tags:
+  - App
+  properties:
+  - type: OpenAPI
+    url: openapi/branch-messenger-app-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+- aid: branch-messenger:branch-messenger-branch-api-api
+  name: Branch Branch API
+  description: The Branch API API from Branch — 1 operation(s) for branch api.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: https://api2.branch.io
+  tags:
+  - Branch API
+  properties:
+  - type: OpenAPI
+    url: openapi/branch-messenger-branch-api-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+- aid: branch-messenger:branch-messenger-event-api
+  name: Branch Event API
+  description: The Event API from Branch — 1 operation(s) for event.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: https://api2.branch.io
+  tags:
+  - Event
+  properties:
+  - type: OpenAPI
+    url: openapi/branch-messenger-event-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+- aid: branch-messenger:branch-messenger-img1-api
+  name: Branch Img1 API
+  description: The Img1 API from Branch — 1 operation(s) for img1.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: https://api2.branch.io
+  tags:
+  - Img1
+  properties:
+  - type: OpenAPI
+    url: openapi/branch-messenger-img1-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
+  - type: JSONSchema
+    url: json-schema/branch-messenger-put-v1-app-branchkey-response-schema.json
+- aid: branch-messenger:branch-messenger-query-api
+  name: Branch Query API
+  description: The Query API from Branch — 1 operation(s) for query.
+  humanURL: https://help.branch.io/apidocs
+  baseURL: https://api2.branch.io
+  tags:
+  - Query
+  properties:
+  - type: OpenAPI
+    url: openapi/branch-messenger-query-api-openapi.yml
   - type: JSONSchema
     url: json-schema/branch-messenger-put-v1-app-branchkey-request-schema.json
   - type: JSONSchema

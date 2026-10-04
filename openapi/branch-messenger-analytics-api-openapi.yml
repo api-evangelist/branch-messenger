@@ -1,0 +1,51 @@
+openapi: 3.2.0
+info:
+  title: Branch Analytics API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 5 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Branch has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 9
+    documentation: -3
+    pages-with-code: 5
+    pages-read: 5
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.branch.io/apidocs/app-api.md
+  - https://help.branch.io/apidocs/query-api.md
+  - https://help.branch.io/apidocs/cohort-api.md
+  - https://help.branch.io/apidocs/events-api.md
+  - https://help.branch.io/apidocs/qr-code-api.md
+servers:
+- url: https://api2.branch.io
+tags:
+- name: Analytics
+paths:
+  /v2/analytics/{jobid}:
+    get:
+      operationId: get_v2_analytics_jobid
+      tags:
+      - Analytics
+      summary: GET /v2/analytics/{jobId}
+      x-source: https://help.branch.io/apidocs/cohort-api.md
+      parameters:
+      - name: jobid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: 'curl
+
+          curl ''https://api2.branch.io/v2/analytics/<job_id>?organization_id=<organization_id>'' -H ''Access-Token:<branch_access_token>''
+
+          ```'
