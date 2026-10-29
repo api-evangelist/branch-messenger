@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Branch is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/branch-messenger_stock/
+Branch provides a mobile measurement and deep linking platform that helps marketers and developers create, manage, and analyze deep links, attribution, and user engagement across apps and web. The service offers tools for link management, attribution analytics, fraud detection, and integration with advertising and analytics platforms, supporting a wide range of industries such as finance, retail, and media.
+
+**Areas:** Mobile · DeepLinking · Attribution · Marketing · Analytics
+
+## Branch on APIs.io
+
+Everything profiled for Branch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/branch-messenger/](https://apis.io/providers/branch-messenger/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Branch API](https://apis.io/apis/branch-messenger/branch-api/) — Branch API provides deep linking, attribution, and analytics endpoints as documented in the public markdown API reference.
+- [Branch Analytics API](https://apis.io/apis/branch-messenger/branch-messenger-analytics-api/) — The Analytics API from Branch — 1 operation(s) for analytics.
+- [Branch App API](https://apis.io/apis/branch-messenger/branch-messenger-app-api/) — The App API from Branch — 1 operation(s) for app.
+- [Branch Branch API](https://apis.io/apis/branch-messenger/branch-messenger-branch-api-api/) — The Branch API API from Branch — 1 operation(s) for branch api.
+- [Branch Event API](https://apis.io/apis/branch-messenger/branch-messenger-event-api/) — The Event API from Branch — 1 operation(s) for event.
+- [Branch Img1 API](https://apis.io/apis/branch-messenger/branch-messenger-img1-api/) — The Img1 API from Branch — 1 operation(s) for img1.
+- [Branch Query API](https://apis.io/apis/branch-messenger/branch-messenger-query-api/) — The Query API from Branch — 1 operation(s) for query.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Branch Messenger Webhooks](https://apis.io/asyncapis/branch-messenger/branch-messenger-webhooks/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PutV1AppBranchkeyRequest](https://apis.io/schemas/branch-messenger/branch-messenger-put-v1-app-branchkey-request/)
+- [PutV1AppBranchkeyResponse](https://apis.io/schemas/branch-messenger/branch-messenger-put-v1-app-branchkey-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Branch Messenger Context](https://apis.io/jsonld/branch-messenger/branch-messenger-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Branch API Rules](https://apis.io/rules/branch-messenger/branch-messenger-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Branch Messenger Domain Security](https://apis.io/security/branch-messenger/branch-messenger-domain-security/)
+- [Branch Messenger Trust Center](https://apis.io/security/branch-messenger/branch-messenger-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://branchapp.com/)
+- [Documentation](https://developer.branch.io/)
+- [Getting started](https://help.branch.io/apidocs/scheduled-log-exports-cloud-setup)
+- [API reference](https://help.branch.io/apidocs)
+- [Pricing](https://branch.io/pricing)
+- [Support](https://help.branch.io)
+- [Blog](https://www.branch.io/resources/category/blog/)
+- [Security](https://branch.io/security)
+- [Compliance](https://trust.branch.io/)
+- [Privacy policy](https://legal.branch.io/saas/privacy-policy/)
+- [Status](https://status.branch.io)
+
+## API Evangelist rating
+
+**Kin Score 36.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 30.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 36.8 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/branch-messenger/](https://apis.io/providers/branch-messenger/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Branch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/branch-messenger/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
